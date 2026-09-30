@@ -1,0 +1,28 @@
+[
+  {
+    "file": "marble_cliff_04-NRH.png",
+    "size": [
+      4096,
+      4096
+    ],
+    "bytes": 32011722,
+    "sha256": "33c2701c0e71b148541ba3df08d6563fd75233c0832a4c4ebb1acdd762df894c",
+    "source": "marble_cliff_04-source.json",
+    "license": "CC0-1.0",
+    "channels": "R normal X; G normal Y; B roughness; A height",
+    "processing": "Unchanged channel copy, same resolution; normal Z is unnecessary for surface gradients"
+  },
+  {
+    "file": "marble_rock_01-NRH.png",
+    "size": [
+      2048,
+      2048
+    ],
+    "bytes": 9150194,
+    "sha256": "4c4a85bbd0363df4bae8e7c40ec6c0be90512b64b85f30edec03c3a421fa9208",
+    "source": "marble_rock_01-source.json",
+    "license": "CC0-1.0",
+    "channels": "R normal X; G normal Y; B roughness; A height",
+    "processing": "Unchanged channel copy, same resolution; normal Z is unnecessary for surface gradients"
+  }
+]

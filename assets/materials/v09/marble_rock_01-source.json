@@ -1,0 +1,53 @@
+{
+  "name": "Marble Rock 01",
+  "id": "marble_rock_01",
+  "authors": {
+    "Amal Kumar": "All"
+  },
+  "source": "https://polyhaven.com/a/marble_rock_01",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "dimensionsMillimetres": [
+    2002.079963684082,
+    2002.0811557769775
+  ],
+  "downloadedAt": "2026-09-28T17:09:01.007Z",
+  "files": [
+    {
+      "channel": "Diffuse",
+      "resolution": "2k",
+      "file": "marble_rock_01-Diffuse.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_rock_01/marble_rock_01_diff_2k.jpg",
+      "bytes": 3625410,
+      "md5": "ba866248dbc753afec0e93120407412c",
+      "sha256": "503b267f22292390430a53812bc8cbcb5c85d62bd4e439d2a50bcb7501158649"
+    },
+    {
+      "channel": "nor_gl",
+      "resolution": "2k",
+      "file": "marble_rock_01-nor_gl.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_rock_01/marble_rock_01_nor_gl_2k.jpg",
+      "bytes": 3471019,
+      "md5": "4635a79bb7bb5c861fd480cde983cfa7",
+      "sha256": "48a59c843509ec132b1819b65ab43bb2c8692f091add335b46b8dbd02d391d4d"
+    },
+    {
+      "channel": "Displacement",
+      "resolution": "2k",
+      "file": "marble_rock_01-Displacement.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_rock_01/marble_rock_01_disp_2k.jpg",
+      "bytes": 654407,
+      "md5": "5bb8d196d06dd98343063c5e14687b53",
+      "sha256": "fe10108ea46b5e9851884a95376d3db5d405221b5549cee32bf05b98fe8427d5"
+    },
+    {
+      "channel": "Rough",
+      "resolution": "2k",
+      "file": "marble_rock_01-Rough.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_rock_01/marble_rock_01_rough_2k.jpg",
+      "bytes": 2103662,
+      "md5": "24ed3988d606f317078d9b08c2909ade",
+      "sha256": "6bb12bf378ba56aa4ac33998083b7f9c5d1fcea601a123287ac1916fd80f4e5b"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+const {app,BrowserWindow,Menu}=require('electron');const path=require('node:path');
+app.commandLine.appendSwitch('autoplay-policy','no-user-gesture-required');
+app.whenReady().then(()=>{Menu.setApplicationMenu(null);const w=new BrowserWindow({width:1440,height:900,minWidth:900,minHeight:600,title:'Seceda — A ridge walk',backgroundColor:'#233335',webPreferences:{contextIsolation:true,nodeIntegration:false}});w.loadFile(path.join(__dirname,'index.html'));w.webContents.on('before-input-event',(event,input)=>{if(input.type==='keyDown'&&input.key==='F11'){w.setFullScreen(!w.isFullScreen());event.preventDefault();}});w.webContents.setWindowOpenHandler(()=>({action:'deny'}));});app.on('window-all-closed',()=>app.quit());

@@ -1,0 +1,87 @@
+{
+  "id": "710000-5168000",
+  "e": 710000,
+  "n": 5168000,
+  "coreBbox": [
+    710000,
+    5168000,
+    712000,
+    5170000
+  ],
+  "requestBbox": [
+    709993.75,
+    5167993.75,
+    712006.25,
+    5170006.25
+  ],
+  "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=709993.75%2C5167993.75%2C712006.25%2C5170006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+  "retrieved": "2026-09-29T14:59:52.016Z",
+  "source": "source/710000-5168000.tif",
+  "sourceBytes": 10240436,
+  "sourceSHA256": "a239af69082e27d9d35d5ca3e17c5dc6473e1e478728b522c3294baef835c63a",
+  "origin": [
+    709993.75,
+    5170006.25,
+    0
+  ],
+  "resolution": [
+    2.5,
+    2.5,
+    0
+  ],
+  "geoKeys": {
+    "GTModelTypeGeoKey": 1,
+    "GTRasterTypeGeoKey": 1,
+    "ProjectedCSTypeGeoKey": 25832
+  },
+  "nativeWidth": 805,
+  "nativeHeight": 805,
+  "noData": -9999,
+  "missing": 0,
+  "range": [
+    1499.1500244140625,
+    2462.179931640625
+  ],
+  "levels": [
+    {
+      "spacing": 2.5,
+      "width": 801,
+      "height": 801,
+      "file": "tiles/710000-5168000-2.5m.f32",
+      "bytes": 2566404,
+      "sha256": "f2e628675d445fd776a8bf9626336564880946cdcf1a3d5caf640029f196487d"
+    },
+    {
+      "spacing": 5,
+      "width": 401,
+      "height": 401,
+      "file": "tiles/710000-5168000-5m.f32",
+      "bytes": 643204,
+      "sha256": "5b4a4a9a8afca24374ea40eec2f5b55e1d3cfd1bd1ea8122d62b42f18840ac9b"
+    },
+    {
+      "spacing": 10,
+      "width": 201,
+      "height": 201,
+      "file": "tiles/710000-5168000-10m.f32",
+      "bytes": 161604,
+      "sha256": "2cd3638897e15070c2b0cbbf180ce1be9ed929e5d682bf73628f9a8601584a16"
+    },
+    {
+      "spacing": 20,
+      "width": 101,
+      "height": 101,
+      "file": "tiles/710000-5168000-20m.f32",
+      "bytes": 40804,
+      "sha256": "045e2027f9b32ba8052adcab08894fb90697b63cfdb4c57fe2bbe9843019c9fe"
+    },
+    {
+      "spacing": 40,
+      "width": 51,
+      "height": 51,
+      "file": "tiles/710000-5168000-40m.f32",
+      "bytes": 10404,
+      "sha256": "44018d89361415ec0aa009fa86e5a87239b36fe9a137c917481f04cb6f903506"
+    }
+  ]
+}

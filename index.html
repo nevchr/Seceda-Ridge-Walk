@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,">
+<title>Seceda — A ridge walk</title><link rel="stylesheet" href="src/style.css"><script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script></head>
+<body>
+<canvas id="world"></canvas>
+<div id="loading"><span>DOLOMITES / FIELD STUDY 01</span><h1>Seceda</h1><p id="loadText">Reading the mountain…</p></div>
+<header id="title"><span>SOUTH TYROL · ITALY</span><h1>Seceda</h1><p>A ridge walk</p></header>
+<div id="compass"><span id="bearing">N</span><i></i><small id="altitude">2,460 m</small></div>
+<div id="intro" class="hidden"><span class="eyebrow">SUMMER · LATE AFTERNOON</span><h2>Follow the ridge.</h2><p>A short walk through the high meadow.<br>Climb to the timber marker, then look east.<br>Or leave the trail to explore the open pasture downhill to the southeast.</p><button id="enter">Begin walk <span>↗</span></button><small>W A S D to walk · Mouse to look · Esc to pause</small></div>
+<div id="pause" class="hidden"><span class="eyebrow">TAKE YOUR TIME</span><h2>The mountains can wait.</h2><button id="resume">Continue walk <span>↗</span></button><div class="settings"><label>Look sensitivity <input id="sensitivity" type="range" min="0.4" max="2" step="0.1" value="1"></label><label><input id="sound" type="checkbox" checked> Wind & footsteps</label><label><input id="motion" type="checkbox"> Gentle head motion</label><label>Detail <select id="quality"><option value="high">High</option><option value="balanced">Balanced</option></select></label></div><small>R returns to the trailhead · F11 fullscreen</small></div>
+<div id="toast"></div><div id="reticle" class="hidden"></div>
+<footer id="hud"><div><span id="objective">THE RIDGE VIEWPOINT</span><p id="distance">Follow the pale trail uphill</p></div><small id="controls">WASD walk &nbsp; Shift brisk walk &nbsp; H hide interface &nbsp; Esc pause</small></footer>
+<div id="arrival" class="hidden"><span>YOU’VE REACHED THE RIDGE</span><h2>The Odle</h2><p>Stay a while. Look around.</p></div>
+<script type="module" src="src/main.js"></script></body></html>

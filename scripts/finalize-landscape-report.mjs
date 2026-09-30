@@ -1,0 +1,26 @@
+import fs from 'node:fs/promises';
+const root='artifacts/landscape-v08',read=async name=>JSON.parse(await fs.readFile(`${root}/${name}.json`));
+const [performance,poses,preserve,walk,views,assets]=await Promise.all(['performance','performance-poses','preservation','packaged-walk','after/report','assets'].map(read));
+const f=n=>n.toFixed(2),pair=name=>poses.results.filter(r=>r.pose.name===name),rows=['start','midpoint','viewpoint','valley'].map(name=>{const [a,b]=pair(name);return `| ${name} | ${f(a.gpuMs.mean)} / ${f(a.gpuMs.p95)} | ${f(b.gpuMs.mean)} / ${f(b.gpuMs.p95)} | ${f(a.stats.triangles/1e6)} / ${f(b.stats.triangles/1e6)} | ${a.stats.drawCalls} / ${b.stats.drawCalls} |`;}).join('\n');
+const [a,b]=performance.results,info=preserve.landscapeInfo;
+const report=`Tested the Windows portable executable at 1600×1000 on NVIDIA RTX 4070 Laptop GPU / ANGLE D3D11. Sequential V0.7 and V0.8 measurements use non-disjoint EXT_disjoint_timer_query_webgl2 samples. No frame-rate-derived GPU estimates.
+
+| Eye-level pose | V0.7 GPU mean / p95 ms | V0.8 GPU mean / p95 ms | Triangles V0.7 / V0.8 (M) | Draw calls V0.7 / V0.8 |
+|---|---:|---:|---:|---:|
+${rows}
+
+Fixed tests discard the first second after settling at each pose. The V0.8 ridge viewpoint had 5 frames above 25 ms in 295 measured intervals (mean frame interval 13.56 ms); the other three fixed V0.8 views had none. This view is close to the 75 Hz GPU budget. These are short samples on this machine, not hardware-independent guarantees.
+
+The eleven-second route camera sweep measured V0.7 ${f(a.gpuMs.mean)} ms GPU mean / ${f(a.gpuMs.p95)} p95, versus V0.8 ${f(b.gpuMs.mean)} / ${f(b.gpuMs.p95)} ms. V0.8 mean frame interval ${f(b.frameMs.mean)} ms, ${b.framesOver25ms} frames over 25 ms, CPU render submission ${f(b.cpuSubmissionMs.mean)} ms. Peak sampled submission: ${Math.max(...b.counts.map(c=>c.triangles)).toLocaleString('en-US')} triangles / ${Math.max(...b.counts.map(c=>c.calls))} calls. There is real run-to-run GPU-clock/system variability; the fixed-pose comparison is the clearer per-view cost comparison.
+
+Full normal-speed W-key route completed in ${f(walk.seconds)} seconds with automatic heading guidance, ${walk.result.blocked} blocked controller steps, maximum ground smoothing error ${(walk.result.maxGroundError*100).toFixed(2)} cm, and ${walk.focusResumes} focus resumes. Pointer capture, mouse look, Escape pause, arrival, QA reset and keyboard R reset passed. This was automated real-time input, not a human playtest. The first chained test launch failed to acquire pointer capture; the harness now explicitly brings the window forward before clicking Begin walk.
+
+Exact comparisons passed for all three terrain meshes, all 421 route points, 65 collision volumes, fog, camera FOV, terrain files, original cliff geometry source, controller, sky and close-vegetation modules. Cosmetic limestone fragments are excluded from the entire walking rectangle plus 15 m clearance, checked independently. Scene images were inspected at the nine fixed poses and along the normal-speed walk; the middle pasture continues across the old grass cutoff without a hard ring. Remaining density changes from inherited close flower/clump LODs are still visible on close scrutiny.
+
+Runtime additions: ${info.woodland.instances.toLocaleString('en-US')} conifer instances across the existing scenic extent, ${info.woodland.totalTriangles.toLocaleString('en-US')} total tree triangles before frustum culling, 18,530,016 instance-buffer bytes and 9,720 shared crown-geometry bytes. ${info.pastureFragments.instances.toLocaleString('en-US')} limestone fragments × 20 triangles; ${info.pastureFragments.instanceBytes.toLocaleString('en-US')} instance bytes. Middle-sward shared geometry 135,168 bytes plus 96,000 allocated tile-instance bytes and a 550,164-byte R32F height texture. Land-cover RGBA base 4,800,000 bytes, approximately 6.1 MiB including mipmaps. Active texture count increases from 25 to 27. All ${assets.totalAssetBytes.toLocaleString('en-US')} existing asset-file bytes are unchanged; zero new third-party image/model bytes.
+
+All nine camera pairs use the two portable builds; package parity and reference-photo exclusion are recorded in package-audit.json. Archive CRC/SHA-256 are in archive.json. The final package is release/Seceda-Windows-v0.8, alongside the preserved V0.7 build.`;
+let doc=await fs.readFile('docs/LANDSCAPE_V08.md','utf8');doc=doc.replace('Final measurements are recorded below after the packaged checks complete. Machine-specific performance is not a guarantee on other PCs.',report).replace('sit beyond the 88 m close-plant corridor.','sit beyond the 88 m close-plant corridor and outside the full walking bounds with 15 m clearance.');await fs.writeFile('docs/LANDSCAPE_V08.md',doc);
+assets.runtimeAdditions=info;await fs.writeFile(`${root}/assets.json`,JSON.stringify(assets,null,2));
+let gallery=await fs.readFile('scripts/build-landscape-comparison.mjs','utf8');gallery=gallery.replace('<a href="performance.json">GPU measurements</a>','<a href="performance.json">Route GPU measurements</a> · <a href="performance-poses.json">Fixed-view GPU measurements</a>');await fs.writeFile('scripts/build-landscape-comparison.mjs',gallery);
+console.log('Updated final report from measured data.');

@@ -1,0 +1,60 @@
+{
+  "size": [
+    2800,
+    2400
+  ],
+  "metresPerPixel": 5,
+  "worldBounds": [
+    -6700,
+    -7700,
+    14000,
+    12000
+  ],
+  "geologyChannels": [
+    "steepness 1-normal.y",
+    "multiscale concavity",
+    "upslope rock-source potential (authored)",
+    "solar aspect"
+  ],
+  "landuseChannels": [
+    "woodland",
+    "bare rock",
+    "unvegetated debris",
+    "dwarf shrub / wooded pasture"
+  ],
+  "landuseSource": "Province of Bolzano real land use map 1:10000, 2001 imagery, 2005 release; historical land cover, not current tree survey",
+  "license": "CC0-1.0",
+  "featureCount": 1678,
+  "classes": {
+    "Arbusti contorti e pino mugo": 29,
+    "Aree prative": 312,
+    "Zone detritiche prive di vegetazione": 189,
+    "Roccia": 108,
+    "Case singole, case sparse": 376,
+    "Bosco": 267,
+    "Pascoli o arbusti nani alberati, prati alberati": 29,
+    "Seminativo": 200,
+    "Rete stradale e spazi associati": 12,
+    "Tessuto extraurbano denso": 38,
+    "Attrezzature sportive e per il tempo libero": 6,
+    "Siepi ed alberature": 49,
+    "Tessuto urbano rado": 3,
+    "Altre attrezzature di interesse pubblico": 4,
+    "Aree umide": 4,
+    "impianti a fune (edifici) e spazi associati": 26,
+    "Altre superfici agricole": 3,
+    "Bacini d'acqua": 3,
+    "Area verde urbana": 7,
+    "Corsi d'acqua": 5,
+    "Superfici industriali e commerciali": 3,
+    "Cimitero": 2,
+    "Area a copertura artificiale non classificabile": 3
+  },
+  "derivedArt": "Slope/curvature/upslope masks guide authored materials; they are not geological or soil measurements.",
+  "sha256": {
+    "geology.rgba": "a7bdb974bf643bb162ab3fc8149afeefa531d5a30b7644405c9fb29b3e252319",
+    "landuse.rgba": "926bc00b6e9f0c00f78d9150213e1063c9f458d9a20d84d48db9caf3d0a4c22b",
+    "sun-horizon.rgba": "08ecc08ce565e29f7dd82a35dc42b732a1332119b952d21be1ac0eac027545b8",
+    "source/landuse.geojson": "6fbe08ad6bd1929a8dbbb298f3b5aeed2f0388fbc2c24f2d2cbf87f0aade8f4c"
+  }
+}

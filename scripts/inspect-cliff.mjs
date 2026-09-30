@@ -1,0 +1,3 @@
+import {createRequire} from 'node:module';
+const {_electron}=createRequire(import.meta.url)('C:/Users/chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const app=await _electron.launch({executablePath:'node_modules/electron/dist/electron.exe',args:['.']});try{const p=await app.firstWindow();await p.waitForFunction(()=>window.__seceda?.ready,null,{timeout:120000});await p.setViewportSize({width:1600,height:1000});await p.evaluate(()=>{const q=window.__seceda;q.hideUI();q.setPose(150,-120,-1.14,-.04);q.cliffs.visible=false;});await p.waitForTimeout(2000);await p.screenshot({path:'artifacts/meadow-v03/cliff-off.png'});}finally{await app.close();}

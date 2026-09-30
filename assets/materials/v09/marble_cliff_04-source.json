@@ -1,0 +1,53 @@
+{
+  "name": "Marble Cliff 04",
+  "id": "marble_cliff_04",
+  "authors": {
+    "Amal Kumar": "All"
+  },
+  "source": "https://polyhaven.com/a/marble_cliff_04",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "dimensionsMillimetres": [
+    12656.517028808594,
+    12656.39877319336
+  ],
+  "downloadedAt": "2026-09-28T17:08:56.768Z",
+  "files": [
+    {
+      "channel": "Diffuse",
+      "resolution": "4k",
+      "file": "marble_cliff_04-Diffuse.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/marble_cliff_04/marble_cliff_04_diff_4k.jpg",
+      "bytes": 13089990,
+      "md5": "e1a03f0c0784ea1d1beeaebd90f2de63",
+      "sha256": "37f1e495c116614a1982829e14a75d15cbdac276021196562abd99b13fa9789c"
+    },
+    {
+      "channel": "nor_gl",
+      "resolution": "4k",
+      "file": "marble_cliff_04-nor_gl.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/marble_cliff_04/marble_cliff_04_nor_gl_4k.jpg",
+      "bytes": 10502112,
+      "md5": "e02bec71bc53e60d0f55b60504949059",
+      "sha256": "117fedf9b48ec8cbbfee1e83476c0052d56eb0c710c2c9ea0337e7addb1b28ec"
+    },
+    {
+      "channel": "Displacement",
+      "resolution": "4k",
+      "file": "marble_cliff_04-Displacement.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/marble_cliff_04/marble_cliff_04_disp_4k.jpg",
+      "bytes": 1654581,
+      "md5": "1a4e8517d08173344520f8c294a2d65d",
+      "sha256": "4d3dd5e12d5f9861cf2b3e83d9c6c5f9086562b25947c37b5ef182125f63fa76"
+    },
+    {
+      "channel": "Rough",
+      "resolution": "4k",
+      "file": "marble_cliff_04-Rough.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/marble_cliff_04/marble_cliff_04_rough_4k.jpg",
+      "bytes": 8633731,
+      "md5": "e9bcf51ada7410352d750908f56a1afc",
+      "sha256": "88f3925635da0ed883bcfa63f6f9b128bed5abfdb916baee836da3d03aec74de"
+    }
+  ]
+}

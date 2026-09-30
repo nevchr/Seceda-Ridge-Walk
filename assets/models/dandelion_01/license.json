@@ -1,0 +1,55 @@
+{
+  "asset": "dandelion_01",
+  "source": "https://polyhaven.com/a/dandelion_01",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "authors": {
+    "Rob Tuytel": "Photography",
+    "Rico Cilliers": "Modeling"
+  },
+  "downloaded": "2026-09-28",
+  "files": [
+    {
+      "name": "model.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/dandelion_01/dandelion_01_1k.gltf",
+      "bytes": 8915,
+      "md5": "9e470fe32469a68b70f6a7ecc01e2af4",
+      "sha256": "68f804fe29f641f37b03c470cf9065d34aacd1b4f580ed6f35385626c2bb42b7"
+    },
+    {
+      "name": "dandelion_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/dandelion_01/dandelion_01.bin",
+      "bytes": 1676648,
+      "md5": "a44fda5ce48c4f194791dc0d2e2b1312",
+      "sha256": "ccff5a564f56a69374c09c25ae86c3684c46329309b4eef4569255b1ad54bdd0"
+    },
+    {
+      "name": "textures/dandelion_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dandelion_01/dandelion_01_nor_gl_1k.jpg",
+      "bytes": 495857,
+      "md5": "4957d07cc135503ed860a7cf7ce330f1",
+      "sha256": "fd69513a4803145f634b5ace49fed8709e454b3026d060687071757a72c33250"
+    },
+    {
+      "name": "textures/dandelion_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dandelion_01/dandelion_01_diff_1k.jpg",
+      "bytes": 470035,
+      "md5": "3516eea45aea05ed60188266abf68323",
+      "sha256": "17e49d535dfce890e539038a80eaa77d90dab5f1781350266dd8f736ee7370d6"
+    },
+    {
+      "name": "textures/dandelion_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dandelion_01/dandelion_01_arm_1k.jpg",
+      "bytes": 448489,
+      "md5": "60cf149fef7e3a787561312ccd863db1",
+      "sha256": "dad70c20756581fd795548f52a23580d94a2af538664dbbfe64e66a76e4eebb6"
+    },
+    {
+      "name": "textures/dandelion_01_alpha_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dandelion_01/dandelion_01_alpha_1k.jpg",
+      "bytes": 232905,
+      "md5": "b6018fa25ee440e2956691d3ba2116ac",
+      "sha256": "2b0ecc6f592272a23f06309d4000ca3508639e467a4129aaa7057157dc6a8017"
+    }
+  ]
+}

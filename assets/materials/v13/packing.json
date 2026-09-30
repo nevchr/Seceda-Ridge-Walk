@@ -1,0 +1,34 @@
+{
+  "operation": "Lossless channel packing of decoded grass JPEGs. Gravel height unchanged; roughness bilinearly upsampled 1024 to 2048 to share its sampler.",
+  "maps": [
+    {
+      "file": "grass005-NA.png",
+      "channels": [
+        "normal X",
+        "normal Y",
+        "ambient occlusion",
+        "roughness"
+      ],
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 14991995,
+      "sha256": "f43efd2c386399e4bc96054d7ce3101b3ad374e0fa2032483f5e024c7632962e"
+    },
+    {
+      "file": "gravelly_sand-HR.png",
+      "channels": [
+        "height",
+        "roughness",
+        "unused"
+      ],
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 3032876,
+      "sha256": "16cb8fbdba380a278b255658248bcc2514b5fc1b4bc772a06cf6939ea5dd19a4"
+    }
+  ]
+}

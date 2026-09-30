@@ -1,0 +1,173 @@
+{
+  "title": "V15 authored natural-surface colour from Ortofoto 2023",
+  "license": "CC BY 4.0",
+  "attribution": "Ortofoto 2023 RGB, Provincia Autonoma di Bolzano / Alto Adige, with AgEA",
+  "source": "https://data.civis.bz.it/it/dataset/ortofoto-2023",
+  "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceManifest": "../terrain-v14/orthophoto/license-and-manifest.json",
+  "crs": "EPSG:25832",
+  "metresPerPixel": 2,
+  "dimensions": [
+    2048,
+    2048
+  ],
+  "modifications": "6 m median and sub-14 m bright-line suppression, local brightness normalisation, chromatic pasture variation, authored summer reflectance palette, naturalised historical artificial footprints; shader adds physical world-space materials. This suppresses photographic lighting rather than performing calibrated inverse rendering. Some unclassified traces may remain. Final contribution retains compressed-illumination natural RGB, suppresses blue cast shade and infills masked bright linear marks from adjacent natural colour.",
+  "tiles": [
+    {
+      "file": "ortho-0-0.jpg",
+      "bbox": [
+        701952,
+        5167952,
+        706048,
+        5172048
+      ],
+      "bytes": 1925743,
+      "sha256": "796b51d95c38197385c3880d28f15862e0f063445be7abd20a079e1ca9833cbf",
+      "sourceSHA256": "aff1322eb1681b6f1f82c4d33801d5b95c723178d0ae7310c83d8338c5d42cb6",
+      "naturalisationFraction": 0.07298879325389862
+    },
+    {
+      "file": "ortho-0-1.jpg",
+      "bbox": [
+        705952,
+        5167952,
+        710048,
+        5172048
+      ],
+      "bytes": 1964426,
+      "sha256": "38263d5042c107048f3debb65ce3761e462148c04fc5a73ece9c2b7b0b2ede61",
+      "sourceSHA256": "0b674e0f3527c2b28ec3f91955a454405b1183ad080829c66b4962cf4e4add20",
+      "naturalisationFraction": 0.05900540202856064
+    },
+    {
+      "file": "ortho-0-2.jpg",
+      "bbox": [
+        709952,
+        5167952,
+        714048,
+        5172048
+      ],
+      "bytes": 2232566,
+      "sha256": "6ae037a9834cdd3dcd0112ae19a6b09077a0e9d8addb3f6502eff63a2b9eef04",
+      "sourceSHA256": "a6994aea8054ab15a77a40b8b22836f091aac9b6ec14d8da04d9bdf540e48188",
+      "naturalisationFraction": 0.03634178638458252
+    },
+    {
+      "file": "ortho-0-3.jpg",
+      "bbox": [
+        713952,
+        5167952,
+        718048,
+        5172048
+      ],
+      "bytes": 2078857,
+      "sha256": "012385b51a22036bb160276606ee0707ff86c72cd37d4ccb4c04c114c4e5a4b6",
+      "sourceSHA256": "f02b64bb85ecc0b9dd9259474771def7484427cd997bf2871cc36f15fad50911",
+      "naturalisationFraction": 0.07171151041984558
+    },
+    {
+      "file": "ortho-1-0.jpg",
+      "bbox": [
+        701952,
+        5163952,
+        706048,
+        5168048
+      ],
+      "bytes": 2170471,
+      "sha256": "ad17d0b65a4d97102f2c3a45cd79dfb55d3133b52794c21999d655f6f43dc081",
+      "sourceSHA256": "0d46c314157309f52a8c03c45c22be9884df8779f00ae771d75c876d940e5c5d",
+      "naturalisationFraction": 0.02334289439022541
+    },
+    {
+      "file": "ortho-1-1.jpg",
+      "bbox": [
+        705952,
+        5163952,
+        710048,
+        5168048
+      ],
+      "bytes": 2095334,
+      "sha256": "27891e8defbb8e4e08fc231ad15130762644a2d8c7b40a46578900e4725b350e",
+      "sourceSHA256": "480126d45328deae1f13a66309d93113ad17afacddcae2d1b377e3613422522e",
+      "naturalisationFraction": 0.018831755965948105
+    },
+    {
+      "file": "ortho-1-2.jpg",
+      "bbox": [
+        709952,
+        5163952,
+        714048,
+        5168048
+      ],
+      "bytes": 2014689,
+      "sha256": "63d1ef5e060ea39a27ab998ab9d0f2a2c79ece7b2cb703e17f5ce3ad0e70bd18",
+      "sourceSHA256": "91ff8059cec7affc76243070e9947c57b01c718b96940cbb99d6dd1010604ca2",
+      "naturalisationFraction": 0.024422593414783478
+    },
+    {
+      "file": "ortho-1-3.jpg",
+      "bbox": [
+        713952,
+        5163952,
+        718048,
+        5168048
+      ],
+      "bytes": 2029230,
+      "sha256": "2662075583127e7d44943083ff117511f4d3a0a7c19c0ecd582fa954961ed48d",
+      "sourceSHA256": "48343d605f27733c3957e5da73f60c3b32a76f357993e62aca5c4cb53e376ce6",
+      "naturalisationFraction": 0.024925122037529945
+    },
+    {
+      "file": "ortho-2-0.jpg",
+      "bbox": [
+        701952,
+        5159952,
+        706048,
+        5164048
+      ],
+      "bytes": 2080698,
+      "sha256": "9720a041dfaecfffcf86e3d4fd49ca92e1412596245ccac6da9fbbea557f66bf",
+      "sourceSHA256": "1e6252e20b06918399c4b2bc8ca68fd4212cc17dbf316afb56d496bbb57bd015",
+      "naturalisationFraction": 0.13564977049827576
+    },
+    {
+      "file": "ortho-2-1.jpg",
+      "bbox": [
+        705952,
+        5159952,
+        710048,
+        5164048
+      ],
+      "bytes": 2126816,
+      "sha256": "5bbe25e31324487b9888bb7dd6a399584d4a372f00e04696d2e15c13c84b4607",
+      "sourceSHA256": "f97b56edaf002ea8d47d2e31a012814f86a4dcd993ed3d07261234a84b031fd5",
+      "naturalisationFraction": 0.07021819055080414
+    },
+    {
+      "file": "ortho-2-2.jpg",
+      "bbox": [
+        709952,
+        5159952,
+        714048,
+        5164048
+      ],
+      "bytes": 2011909,
+      "sha256": "abc1bf4a4312b0ca900a4623bea75251f7f7da4f508c1504efd774d4f3b6f9e0",
+      "sourceSHA256": "bcc7265a8ee00e0dc7da9438aa655814dbe0fc36aee4df0f35a096631100907b",
+      "naturalisationFraction": 0.06255542486906052
+    },
+    {
+      "file": "ortho-2-3.jpg",
+      "bbox": [
+        713952,
+        5159952,
+        718048,
+        5164048
+      ],
+      "bytes": 1948755,
+      "sha256": "411bd22045e8487b8dff66b6a4c5297f3fa801c7391a80b94f4899e80b86cbaf",
+      "sourceSHA256": "e7fdf4fd80298070b46c236f5341ebbfc944a896a5f399f671a0e76cddf8fe1e",
+      "naturalisationFraction": 0.06550136208534241
+    }
+  ]
+}

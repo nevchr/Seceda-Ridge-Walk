@@ -1,0 +1,37 @@
+{
+  "name": "Marble Cliff 05",
+  "authors": {
+    "Amal Kumar": "All"
+  },
+  "assetURL": "https://polyhaven.com/a/marble_cliff_05",
+  "license": "CC0 1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "retrieved": "2026-09-27",
+  "sourceFootprintMetres": 20.002,
+  "usage": "Art-directed cliff ingredient, 20 m primary / 80 m macro triplanar sampling. This is a marble scan, not a geological survey of Seceda. Original files unchanged.",
+  "files": [
+    {
+      "name": "marble_cliff_05.jpg",
+      "bytes": 11379735,
+      "width": 4096,
+      "height": 4096,
+      "md5": "1179955cd22bbab03830d3bbfc1576cb",
+      "sha256": "ba6b56261e0288f12cb4ca6070acb340b617dab8ffe36dd0a7f129c22683a2c9",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/marble_cliff_05/marble_cliff_05_diff_4k.jpg",
+      "upstreamVerified": true,
+      "modified": false
+    },
+    {
+      "name": "marble_cliff_05-height.png",
+      "bytes": 5532576,
+      "width": 2048,
+      "height": 2048,
+      "md5": "ef386abd9c6edc95848c8c4679098a80",
+      "sha256": "56ba432965085f36625bb43a29a2d53863c173e2e60d93eee17fc7331121f295",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/marble_cliff_05/marble_cliff_05_disp_2k.png",
+      "upstreamVerified": true,
+      "modified": false
+    }
+  ],
+  "totalBytes": 16912311
+}

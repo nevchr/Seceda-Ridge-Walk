@@ -1,0 +1,24 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+async function walk(dir){const out=[];for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())out.push(...await walk(p));else out.push(p);}return out;}
+const root='release/Seceda-Windows-v0.15',app=root+'/resources/app',manifest=[];
+assert.equal(sha(await fs.readFile('README.md')),sha(await fs.readFile(root+'/READ ME.txt')),'Portable readme is stale');
+const testedRuntime=JSON.parse(await fs.readFile('artifacts/surface-v015/final-runtime.json'));
+for(const f of testedRuntime.files)assert.equal(sha(await fs.readFile(f.file)),f.sha256,'Runtime changed after final traversal began: '+f.file);
+for(const file of ['index.html','desktop.cjs','package.json','README.md',...await walk('src'),...await walk('assets'),...await walk('docs')]){
+ if(/terrain-v14[\\/]source[\\/].*\.tif$/i.test(file))continue; const original=await fs.readFile(file),copy=await fs.readFile(path.join(app,file));assert.equal(sha(original),sha(copy),file);manifest.push({file,bytes:copy.length,sha256:sha(copy)});
+}
+const references=await Promise.all((await walk('artifacts/references/user')).map(async p=>{const b=await fs.readFile(p);return {bytes:b.length,hash:sha(b)};}));
+const packageFiles=await walk(root);let bytes=0;for(const f of packageFiles){assert.ok(!/references/i.test(f));const stat=await fs.stat(f);bytes+=stat.size;for(const ref of references)if(ref.bytes===stat.size)assert.notEqual(sha(await fs.readFile(f)),ref.hash,'Private reference included');}
+const reports=await Promise.all(['baseline','final'].map(async folder=>JSON.parse(await fs.readFile(`artifacts/surface-v015/${folder}/report.json`))));
+const poses=r=>r.views.map(v=>({name:v.name,position:v.position,x:v.x,z:v.z,yaw:v.yaw,pitch:v.pitch,fov:v.fov||66}));
+assert.deepEqual(poses(reports[0]),poses(reports[1]));for(const r of reports){assert.equal(r.source,false);assert.equal(r.views.length,31);assert.deepEqual(r.errors,[]);}
+const finalWalk=JSON.parse(await fs.readFile('artifacts/surface-v015/final-walk/packaged-walk.json'));assert.equal(finalWalk.result.index,421);assert.equal(finalWalk.freeResult.index,68);assert.equal(finalWalk.result.reached,true);assert.equal(finalWalk.freeResult.reached,true);assert.equal(finalWalk.result.blocked,0);assert.equal(finalWalk.freeResult.blocked,0);assert.deepEqual(finalWalk.errors,[]);
+const archives={};for(const [v,expected] of [['0.14','d14f704e58881974306c4c39734c50a4630e9ae4c49567420bb83b3f4f7a9cc9'],['0.13','67d460cfe49c38f327c591892eccbc4204024ebed6a521e6324fe0d739777053'],['0.12','960b978ed3310238fd184fe54421f55bbd811cee9fc1db190b7e8fd20a1f9e7c'],['0.11','ac4b56f072a96cda2f96039b0811c0ce760beb17f7cc7b65cd73a63c6293ca1b'],['0.10','5ec0a5751b496b6b54d1a8e4474026345ee0a158d72b6ba2f98b4312752ba410'],['0.8','18f337631839d8873d5d490fb6cb2d7701822b701cca5477811f8f9bcd492164'],['0.9','2dea7b65a39791e787774d37a91b7fcda324c46efe7e614a610a40cd30580116']]){const b=await fs.readFile(`release/Seceda-Windows-v${v}.zip`);assert.equal(sha(b),expected);archives[v]={bytes:b.length,sha256:sha(b),unchanged:true};}
+for(const mode of ['controlled','native']){const p=JSON.parse(await fs.readFile(`artifacts/surface-v015/final-${mode}.json`));assert.equal(p.results.length,16);for(const r of p.results){assert.equal(r.conditionsBefore.acOnline,true);assert.equal(r.conditionsAfter.acOnline,true);assert.equal(r.conditionsBefore.batterySaver,0);assert.equal(r.conditionsAfter.batterySaver,0);assert.equal(r.conditionsBefore.scheme,r.conditionsAfter.scheme);assert.deepEqual(r.conditionsBefore.displays,r.conditionsAfter.displays);assert.deepEqual(r.errors,[]);assert.equal(r.disjoint,false);const peer=p.results.find(s=>s.pose.name===r.pose.name&&s.version!==r.version);assert.deepEqual(r.renderTarget,peer.renderTarget);assert.deepEqual(r.settings,peer.settings);assert.deepEqual(r.conditionsBefore.displays,peer.conditionsBefore.displays);assert.equal(r.conditionsBefore.scheme,peer.conditionsBefore.scheme);}}
+assert.ok(packageFiles.some(f=>f.endsWith('LICENSES.chromium.html')));assert.ok(packageFiles.some(f=>f.endsWith(path.join('three','LICENSE'))));
+const report={passed:true,package:root,files:packageFiles.length,totalBytes:bytes,assetBytes:manifest.filter(m=>m.file.startsWith('assets')).reduce((s,m)=>s+m.bytes,0),sourceAssetDocFilesMatched:manifest.length,privateReferenceImagesChecked:references.length,matchedPortableCameraPairs:31,previousArchives:archives,licensesPresent:true,manifest};
+await fs.writeFile('artifacts/surface-v015/package-audit.json',JSON.stringify(report,null,2));console.log(JSON.stringify({...report,manifest:undefined},null,2));

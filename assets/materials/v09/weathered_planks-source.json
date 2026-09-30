@@ -1,0 +1,45 @@
+{
+  "name": "Weathered Planks",
+  "id": "weathered_planks",
+  "authors": {
+    "Dario Barresi": "Processing",
+    "Dimitrios Savva": "Photography"
+  },
+  "source": "https://polyhaven.com/a/weathered_planks",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "dimensionsMillimetres": [
+    2000,
+    2000
+  ],
+  "downloadedAt": "2026-09-28T17:09:06.751Z",
+  "files": [
+    {
+      "channel": "Diffuse",
+      "resolution": "4k",
+      "file": "weathered_planks-Diffuse.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/weathered_planks/weathered_planks_diff_4k.jpg",
+      "bytes": 9162106,
+      "md5": "8b6cf9442022646e8d94797afcc808cf",
+      "sha256": "e270daa7ac5aed9d8c0f55e1bdccb219405ec581d4fabce9eda8785acf5df484"
+    },
+    {
+      "channel": "nor_gl",
+      "resolution": "4k",
+      "file": "weathered_planks-nor_gl.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/weathered_planks/weathered_planks_nor_gl_4k.jpg",
+      "bytes": 14750434,
+      "md5": "d119bf82bf49b98b905a9989e5d6af00",
+      "sha256": "61f8e3cf3bcdfc208f70b373883e07ce6136e96b9700d92862fbe50de4905fd7"
+    },
+    {
+      "channel": "Rough",
+      "resolution": "4k",
+      "file": "weathered_planks-Rough.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/weathered_planks/weathered_planks_rough_4k.jpg",
+      "bytes": 3967591,
+      "md5": "032672e60078ed9ff92c1abd5211851d",
+      "sha256": "ba6a0db5c819717792d9727565259c310dd2d55a2a4996258491e8115e581bef"
+    }
+  ]
+}

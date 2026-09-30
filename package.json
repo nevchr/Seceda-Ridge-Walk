@@ -1,0 +1,27 @@
+{
+  "name": "seceda-ridge-walk",
+  "version": "0.15.0",
+  "private": true,
+  "type": "module",
+  "description": "A short first-person walk at Seceda, South Tyrol",
+  "main": "desktop.cjs",
+  "scripts": {
+    "start": "node scripts/check-runtime-assets.mjs && electron .",
+    "dev": "node scripts/check-runtime-assets.mjs && node scripts/serve.mjs",
+    "terrain": "node scripts/build-terrain.mjs",
+    "test": "node scripts/check-runtime-assets.mjs --hash && node --test tests/runtime-assets.test.mjs && node scripts/verify.mjs",
+    "package": "node scripts/check-runtime-assets.mjs && node scripts/package.mjs",
+    "assets:fetch": "node scripts/fetch-runtime-assets.mjs",
+    "assets:check": "node scripts/check-runtime-assets.mjs --hash"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "electron": "38.2.0",
+    "geotiff": "2.1.4-beta.0",
+    "proj4": "2.19.10",
+    "fflate": "0.8.2"
+  },
+  "packageManager": "pnpm@11.19.0"
+}

@@ -1,0 +1,4 @@
+import http from 'node:http';import fs from 'node:fs';import path from 'node:path';
+const root=path.resolve('.');const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.f32':'application/octet-stream','.png':'image/png'};
+const server=http.createServer((req,res)=>{let name;try{name=decodeURIComponent(req.url.split('?')[0]);}catch{res.writeHead(400).end();return;}let p=path.resolve(root,'.'+(name==='/'?'/index.html':name));if(!p.startsWith(root+path.sep)){res.writeHead(403).end();return;}fs.stat(p,(e,s)=>{if(e||!s.isFile()){res.writeHead(404).end();return;}res.setHeader('Content-Type',types[path.extname(p)]||'application/octet-stream');res.setHeader('Cache-Control','no-cache');fs.createReadStream(p).pipe(res);});});
+server.listen(Number(process.env.PORT||4173),'127.0.0.1',()=>console.log('Seceda: http://127.0.0.1:4173'));

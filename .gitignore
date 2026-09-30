@@ -1,0 +1,10 @@
+node_modules/
+release/
+artifacts/
+.downloads/
+.runtime-stage-*/
+/assets/**
+!/assets/**/
+!/assets/**/*.json
+/assets/.runtime-origin.json
+*.log

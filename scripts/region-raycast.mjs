@@ -1,0 +1,5 @@
+import fs from 'node:fs';import * as T from 'three';import{Terrain}from'../src/terrain.js';
+const t=new Terrain(),meta=JSON.parse(fs.readFileSync('assets/terrain/manifest.json'));t.layers=meta.layers.map(l=>{const b=fs.readFileSync('assets/terrain/'+l.name+'.f32');return {...l,data:new Float32Array(b.buffer,b.byteOffset,b.byteLength/4)}});
+for(const [name,x,z,yaw,pitch,pixels] of [['viewpoint',150,-120,-1.14,-.04,[[1500,480],[1430,470],[1350,470],[1200,490],[300,490]]],['tour',73,44,-1.89,-.035,[[1050,450],[1100,480],[950,480]]]]){
+const cam=new T.PerspectiveCamera(66,1.6,.08,22000);cam.position.set(x,t.height(x,z)+1.72,z);cam.rotation.order='YXZ';cam.rotation.y=yaw;cam.rotation.x=pitch;cam.updateMatrixWorld();
+for(const [u,v]of pixels){const r=new T.Vector3(u/1600*2-1,1-v/1000*2,.5).unproject(cam).sub(cam.position).normalize();let hit;for(let d=20;d<9000;d+=4){const p=cam.position.clone().addScaledVector(r,d);if(p.y<t.height(p.x,p.z)){hit={point:p.toArray(),metres:d,slope:t.slope(p.x,p.z),layer:t.layerAt(p.x,p.z).name};break;}}console.log(name,u,v,hit);}}

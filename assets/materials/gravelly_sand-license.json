@@ -1,0 +1,41 @@
+{
+  "name": "Gravelly Sand",
+  "author": "Dario Barresi",
+  "license": "CC0 1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "assetURL": "https://polyhaven.com/a/gravelly_sand",
+  "retrieved": "2026-09-27",
+  "sourceFootprintMetres": 2.48,
+  "displayedWebsiteFootprintMetres": 2.5,
+  "runtimeRepeatMetres": 2.48,
+  "modification": "Diffuse desaturated toward neutral limestone dust in shader; original files unchanged. Height used for subtle bump only, no terrain displacement.",
+  "files": [
+    {
+      "name": "gravelly_sand.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravelly_sand/gravelly_sand_diff_2k.jpg",
+      "bytes": 4402825,
+      "width": 2048,
+      "height": 2048,
+      "md5": "b90aa766dac59af8c136321149ca86bc",
+      "sha256": "cdab7130a67bc70f8c241b9ab2cd41b731d2baf1ec533939a333573b80070dd6"
+    },
+    {
+      "name": "gravelly_sand-height.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravelly_sand/gravelly_sand_disp_2k.jpg",
+      "bytes": 1266994,
+      "width": 2048,
+      "height": 2048,
+      "md5": "319a4e555e4853d973d1a4d6670b9de6",
+      "sha256": "1708db581f6a915b25af3711a923e4b7e7da79ba0828f113797e42d4bd308a08"
+    },
+    {
+      "name": "gravelly_sand-rough.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravelly_sand/gravelly_sand_rough_1k.jpg",
+      "bytes": 419895,
+      "width": 1024,
+      "height": 1024,
+      "md5": "1152ab34b85ec42a5d4d6c8ed2c1100b",
+      "sha256": "57188f62c17950f96a5f2b8ce11bc9776e2b5bff8eff5c903402d89553ba3654"
+    }
+  ]
+}

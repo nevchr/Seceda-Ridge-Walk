@@ -1,0 +1,3682 @@
+{
+  "version": 1,
+  "source": "Autonomous Province of Bolzano / South Tyrol DTM 2.5 m",
+  "license": "CC0-1.0",
+  "catalog": "https://data.civis.bz.it/it/dataset/modello-digitale-del-terreno-dtm-25m",
+  "technical": "https://natura-territorio.provincia.bz.it/it/modelli-digitali-di-elevazione",
+  "coverage": "p_bz-Elevation:DigitalTerrainModel-2.5m",
+  "crs": "EPSG:25832",
+  "worldOrigin": [
+    708700,
+    5164300,
+    2500
+  ],
+  "unit": "metre",
+  "verticalScale": 1,
+  "bbox": [
+    702000,
+    5160000,
+    716000,
+    5172000
+  ],
+  "nativeSpacing": 2.5,
+  "tileSpan": 2000,
+  "gridConvention": "Cell centres aligned with native grid nodes; five metre halo. Runtime mip grids include both core boundaries. Lower levels retain surveyed node heights, not procedural interpolation of the old 40 m raster.",
+  "tiles": [
+    {
+      "id": "702000-5160000",
+      "e": 702000,
+      "n": 5160000,
+      "coreBbox": [
+        702000,
+        5160000,
+        704000,
+        5162000
+      ],
+      "requestBbox": [
+        701993.75,
+        5159993.75,
+        704006.25,
+        5162006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=701993.75%2C5159993.75%2C704006.25%2C5162006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:56:47.755Z",
+      "source": "source/702000-5160000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "b03da6d38434c237d26d07339d445a8ae256807f75dae5a9b1a411eb2b76180a",
+      "origin": [
+        701993.75,
+        5162006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1113.6800537109375,
+        1817.56005859375
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/702000-5160000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "a63abdaa37179c9f95ba415f42b288591fe631a84178246d8e31a04afe5dc662"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/702000-5160000-5m.f32",
+          "bytes": 643204,
+          "sha256": "283214c1d27bd15bf2d6454b9fb66b7c7999146db1fe765048b9212cb6bfd9ff"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/702000-5160000-10m.f32",
+          "bytes": 161604,
+          "sha256": "39eb8d4b4f3dfc590592da803791a42f888c08f2739fa80906bc9cf24a729c2e"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/702000-5160000-20m.f32",
+          "bytes": 40804,
+          "sha256": "41f4d84f401652e93b5d4444d2a08c3e3d57be937b4f76a1a9942d3951ab0785"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/702000-5160000-40m.f32",
+          "bytes": 10404,
+          "sha256": "d3bf400df8acce0b286d94c3d779acae3c84e7a69375d38cd1bf7b503b6e1ec4"
+        }
+      ]
+    },
+    {
+      "id": "704000-5160000",
+      "e": 704000,
+      "n": 5160000,
+      "coreBbox": [
+        704000,
+        5160000,
+        706000,
+        5162000
+      ],
+      "requestBbox": [
+        703993.75,
+        5159993.75,
+        706006.25,
+        5162006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=703993.75%2C5159993.75%2C706006.25%2C5162006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:56:48.378Z",
+      "source": "source/704000-5160000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "e218feee59227245939731f5c84ca1582a060f3ba65fa46509367ef44b0c6377",
+      "origin": [
+        703993.75,
+        5162006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1174.550048828125,
+        1767.550048828125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/704000-5160000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "928d4b6613c75fca43422d57cf780a000e2ed18d0b693bf57d2eb7e26dc26680"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/704000-5160000-5m.f32",
+          "bytes": 643204,
+          "sha256": "64a4de5e68dc6f244a7b2ccfd918f98586a36f0aec3c2b33fc4cf06dec76c583"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/704000-5160000-10m.f32",
+          "bytes": 161604,
+          "sha256": "a8b211ca6e4b723b3d637605c084e5e4b4a18cf2152fd152ee8b87a343e9ea82"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/704000-5160000-20m.f32",
+          "bytes": 40804,
+          "sha256": "16e96538eed201d2f72ab847dca8b5533015bb054677d365699f3adba19a5b45"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/704000-5160000-40m.f32",
+          "bytes": 10404,
+          "sha256": "11e5f15066a20f7c6730cd7d9dccc10d780d35e218d5e162eb3c29bcc52823c9"
+        }
+      ]
+    },
+    {
+      "id": "706000-5160000",
+      "e": 706000,
+      "n": 5160000,
+      "coreBbox": [
+        706000,
+        5160000,
+        708000,
+        5162000
+      ],
+      "requestBbox": [
+        705993.75,
+        5159993.75,
+        708006.25,
+        5162006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=705993.75%2C5159993.75%2C708006.25%2C5162006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:56:59.189Z",
+      "source": "source/706000-5160000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "9062f49f10f8ee40168e269a7008e09fe420cfdfb53ff355d1ac7612c9f133ab",
+      "origin": [
+        705993.75,
+        5162006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1251.8900146484375,
+        2150.889892578125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/706000-5160000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "e392eb8ad997382c2790af262c52befd7d380ef5d391bb06cc6e42b16125da43"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/706000-5160000-5m.f32",
+          "bytes": 643204,
+          "sha256": "de0f5a304273856db8c63d26d0000fbd00b36f55d635891517213270ffee84a0"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/706000-5160000-10m.f32",
+          "bytes": 161604,
+          "sha256": "0feefaf56fe40a7a7818b970424d0c9633ecd54427b784f4f2eb86bcc9a7e8b4"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/706000-5160000-20m.f32",
+          "bytes": 40804,
+          "sha256": "f8b6e97705f47389f7119de8af04e20f03e039250022ac87e21f78e278452e8e"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/706000-5160000-40m.f32",
+          "bytes": 10404,
+          "sha256": "377193bb84a4bcca021c10f15ac1b6b4d088f09c41dc7ce2d26781f7f5952945"
+        }
+      ]
+    },
+    {
+      "id": "708000-5160000",
+      "e": 708000,
+      "n": 5160000,
+      "coreBbox": [
+        708000,
+        5160000,
+        710000,
+        5162000
+      ],
+      "requestBbox": [
+        707993.75,
+        5159993.75,
+        710006.25,
+        5162006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=707993.75%2C5159993.75%2C710006.25%2C5162006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:00.125Z",
+      "source": "source/708000-5160000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "3fbaa6c01bb0cabb55a85a70edf2e136d999d8538255d928931c9b981098276f",
+      "origin": [
+        707993.75,
+        5162006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1461.1300048828125,
+        2337.360107421875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/708000-5160000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "973f1b8eeaac517858ab718465cf98946e7d81518d10275e2fff74b88103dbb5"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/708000-5160000-5m.f32",
+          "bytes": 643204,
+          "sha256": "dd1eedf3740ff2bf7de70afd81c67798fb1a96ec28117738fd67d59c0dd9aa11"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/708000-5160000-10m.f32",
+          "bytes": 161604,
+          "sha256": "c175f3a0165a088eaf832184ab0d6415d49b1d5aefd8244dc20d36eee1c80928"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/708000-5160000-20m.f32",
+          "bytes": 40804,
+          "sha256": "d103366336adbf33387d8a48676bb27053ebe6cc206310dbc2b25b8e64a94331"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/708000-5160000-40m.f32",
+          "bytes": 10404,
+          "sha256": "88d271fc495f0b208063904b7f39a7527e7af654d97335a88e86add5fa8adab9"
+        }
+      ]
+    },
+    {
+      "id": "710000-5160000",
+      "e": 710000,
+      "n": 5160000,
+      "coreBbox": [
+        710000,
+        5160000,
+        712000,
+        5162000
+      ],
+      "requestBbox": [
+        709993.75,
+        5159993.75,
+        712006.25,
+        5162006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=709993.75%2C5159993.75%2C712006.25%2C5162006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:11.205Z",
+      "source": "source/710000-5160000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "1cc9956c5626d13f831a175e12d46dc867d81a75a8fa5d1bb009659f455683cc",
+      "origin": [
+        709993.75,
+        5162006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1538.6800537109375,
+        2511.89990234375
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/710000-5160000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "939ef82070a284f5e56a713ea2a9731956bc1aa4b0b1638db1e68d54c1028c2a"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/710000-5160000-5m.f32",
+          "bytes": 643204,
+          "sha256": "be1ea1d1d3cb82d0989b5078125b14a6a8773cf1f79bd298e2232ad19da22ba5"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/710000-5160000-10m.f32",
+          "bytes": 161604,
+          "sha256": "894a5858e5725b3d4e78a5cfcae89e8b79588e9a871d5bc17040d2f4471b12c9"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/710000-5160000-20m.f32",
+          "bytes": 40804,
+          "sha256": "ac575938adb25d1f2ff0a366aab48a274aca71143f8b717285246283d9da4849"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/710000-5160000-40m.f32",
+          "bytes": 10404,
+          "sha256": "85a4a913dd0b9cc8c247ae62d94896ba317f614f6a9b6eb608ed05658dbe7d74"
+        }
+      ]
+    },
+    {
+      "id": "712000-5160000",
+      "e": 712000,
+      "n": 5160000,
+      "coreBbox": [
+        712000,
+        5160000,
+        714000,
+        5162000
+      ],
+      "requestBbox": [
+        711993.75,
+        5159993.75,
+        714006.25,
+        5162006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=711993.75%2C5159993.75%2C714006.25%2C5162006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:11.796Z",
+      "source": "source/712000-5160000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "bbddc0f6a6856b4b816b905905535af4d47af7b229f76dd1d47b4170420e2198",
+      "origin": [
+        711993.75,
+        5162006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1596.1600341796875,
+        2492.389892578125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/712000-5160000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "41f2bf3a58be04ad0f742dc697c0478bd7af32aa021e0349980a4c1efadec54d"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/712000-5160000-5m.f32",
+          "bytes": 643204,
+          "sha256": "2f13eec86742c79fa130b68638f366e396f73c665fbaab9f8a8e25a4d825cf76"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/712000-5160000-10m.f32",
+          "bytes": 161604,
+          "sha256": "7cb9253a66671d2161c93bcbdae600b787578f6c0dc1743c0959b4f5a122afa9"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/712000-5160000-20m.f32",
+          "bytes": 40804,
+          "sha256": "d78fd501ff2614accc8cf34fd97922ee51ecba57d57695c879bf11e855e6e628"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/712000-5160000-40m.f32",
+          "bytes": 10404,
+          "sha256": "4f2ba37b085caac00a090f0583f90b0e819ad12b03fa3a4a141504b2eb727b4f"
+        }
+      ]
+    },
+    {
+      "id": "714000-5160000",
+      "e": 714000,
+      "n": 5160000,
+      "coreBbox": [
+        714000,
+        5160000,
+        716000,
+        5162000
+      ],
+      "requestBbox": [
+        713993.75,
+        5159993.75,
+        716006.25,
+        5162006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=713993.75%2C5159993.75%2C716006.25%2C5162006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:23.144Z",
+      "source": "source/714000-5160000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "964fb68eccd94a58040bb555926b137dcde8d603017777d18bbb98c7751f423f",
+      "origin": [
+        713993.75,
+        5162006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1743.1500244140625,
+        2577.64990234375
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/714000-5160000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "c138b4699144355d10827ccdc7de2107c08a87519dac8552b5b89e21ccd49954"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/714000-5160000-5m.f32",
+          "bytes": 643204,
+          "sha256": "e6ac1f9cc272ee8507cae368596629d6129764ee1045c565473bfe677e23ab2a"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/714000-5160000-10m.f32",
+          "bytes": 161604,
+          "sha256": "10955820fcd505365936d10d40ea48dffe6427942afd01e81a8507cbd240f9b8"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/714000-5160000-20m.f32",
+          "bytes": 40804,
+          "sha256": "cb7d4caf9a592b32ac79e7a9b8073821ec272e54f82f28a81578c8558324a29a"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/714000-5160000-40m.f32",
+          "bytes": 10404,
+          "sha256": "8fc892e7a30b29104ba888701c845e1b70c93fdb6a0ce8cba191b227842eb009"
+        }
+      ]
+    },
+    {
+      "id": "702000-5162000",
+      "e": 702000,
+      "n": 5162000,
+      "coreBbox": [
+        702000,
+        5162000,
+        704000,
+        5164000
+      ],
+      "requestBbox": [
+        701993.75,
+        5161993.75,
+        704006.25,
+        5164006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=701993.75%2C5161993.75%2C704006.25%2C5164006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:23.596Z",
+      "source": "source/702000-5162000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "254e79e1c45cc1e0324c8c3b31ebb79307fd6d90c117f9ba1143b5b13a1796b5",
+      "origin": [
+        701993.75,
+        5164006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1110.260009765625,
+        2140.64990234375
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/702000-5162000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "5acc84f34f47d6a764f443a9d0a244717d8215de9bdcff6f5607d0c260c630f8"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/702000-5162000-5m.f32",
+          "bytes": 643204,
+          "sha256": "06bb8ac3b1dac5d41a8467183fe4eba83c123a14c6dfb637952e687ae4542fde"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/702000-5162000-10m.f32",
+          "bytes": 161604,
+          "sha256": "6360caa627b808d3552a2e9cdedb399683bc8955a4aa21490386c0d92e60369f"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/702000-5162000-20m.f32",
+          "bytes": 40804,
+          "sha256": "8a83d67985a9eb21698b694708a85dc79f88186772bbc533524db0d846d16b3b"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/702000-5162000-40m.f32",
+          "bytes": 10404,
+          "sha256": "8bf0a907c57ba8daca50a3e0c665758321cfa23f929ac02d2d185cc666cc7edb"
+        }
+      ]
+    },
+    {
+      "id": "704000-5162000",
+      "e": 704000,
+      "n": 5162000,
+      "coreBbox": [
+        704000,
+        5162000,
+        706000,
+        5164000
+      ],
+      "requestBbox": [
+        703993.75,
+        5161993.75,
+        706006.25,
+        5164006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=703993.75%2C5161993.75%2C706006.25%2C5164006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:34.887Z",
+      "source": "source/704000-5162000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "7128d05ed2bfde84c20e74d8de5f08c113face88f824f103788d4eb3a1ed572a",
+      "origin": [
+        703993.75,
+        5164006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1332.1600341796875,
+        2123.3798828125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/704000-5162000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "6e7b83172e803e7f31b46ca0e4a1bda94962fcb33533b19d336f296d1f7cfb55"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/704000-5162000-5m.f32",
+          "bytes": 643204,
+          "sha256": "357f67a75f926274376eb57917ad1b94e47e4b0c51c9952b9c323d8c67ce1e0c"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/704000-5162000-10m.f32",
+          "bytes": 161604,
+          "sha256": "740b56288935bba2818cb1a791cf8217b13743a8a01ccebc9af1eb123de786b8"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/704000-5162000-20m.f32",
+          "bytes": 40804,
+          "sha256": "039ee3f69e4a6139f7d2574abe06fff6791d272c6604fff0ac8997e7ffd7f602"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/704000-5162000-40m.f32",
+          "bytes": 10404,
+          "sha256": "e5fea8b14f526f65e1056a37a918a7b6b9bdaa410fc937f6b37089db01844815"
+        }
+      ]
+    },
+    {
+      "id": "706000-5162000",
+      "e": 706000,
+      "n": 5162000,
+      "coreBbox": [
+        706000,
+        5162000,
+        708000,
+        5164000
+      ],
+      "requestBbox": [
+        705993.75,
+        5161993.75,
+        708006.25,
+        5164006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=705993.75%2C5161993.75%2C708006.25%2C5164006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:35.314Z",
+      "source": "source/706000-5162000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "786c6644409509e51eeaec9a1303dd042947dcca78bfcdd9bfd658e6083d4be1",
+      "origin": [
+        705993.75,
+        5164006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1347.81005859375,
+        2175.169921875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/706000-5162000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "5896a76a34b30c3324ab9ab5a62dbfa087f869f969eecb9b4266ee7a0ea2341a"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/706000-5162000-5m.f32",
+          "bytes": 643204,
+          "sha256": "cbe1517d9d9f5a210ea72906c037824f48cb838e2db338ceb8c8a83240295a47"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/706000-5162000-10m.f32",
+          "bytes": 161604,
+          "sha256": "fb2dac98a81025a66c54576dde6b2edc228e0e5a2cadd63ec9901bfba223073e"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/706000-5162000-20m.f32",
+          "bytes": 40804,
+          "sha256": "c51af15629ef74bae7eaca77126405d21775926b6f5fc4356c2ef934fc67066f"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/706000-5162000-40m.f32",
+          "bytes": 10404,
+          "sha256": "92299adc8a6f519a583f6c8e162cdbef263a1e855a3884e70a546ffa317d2035"
+        }
+      ]
+    },
+    {
+      "id": "708000-5162000",
+      "e": 708000,
+      "n": 5162000,
+      "coreBbox": [
+        708000,
+        5162000,
+        710000,
+        5164000
+      ],
+      "requestBbox": [
+        707993.75,
+        5161993.75,
+        710006.25,
+        5164006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=707993.75%2C5161993.75%2C710006.25%2C5164006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:46.633Z",
+      "source": "source/708000-5162000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "0929d2ab0ec43057b61b77f34dce79d93b945232629897be8b39dc36771ed209",
+      "origin": [
+        707993.75,
+        5164006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1837.75,
+        2459.030029296875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/708000-5162000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "d63c629439651d296e9349d41fdf230ac32f721bcd76b117896da0e658e90eeb"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/708000-5162000-5m.f32",
+          "bytes": 643204,
+          "sha256": "bc4358b7e2a05b193cf9ada8ad05ee47e8baac237028216306653ceba50145ba"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/708000-5162000-10m.f32",
+          "bytes": 161604,
+          "sha256": "2d3cab5c3dcd2656bbc71e4c57e379a96427a8f50c0fc273206d4ce2d033a491"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/708000-5162000-20m.f32",
+          "bytes": 40804,
+          "sha256": "ef4ec39cbaad82a30b564bde0028f6dd27f0783867c880accd257e43018259f5"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/708000-5162000-40m.f32",
+          "bytes": 10404,
+          "sha256": "f7be79030123b7a4dae7e4ac3c6ec371e9010b084a45c9f397cf2fdf4edbfd57"
+        }
+      ]
+    },
+    {
+      "id": "710000-5162000",
+      "e": 710000,
+      "n": 5162000,
+      "coreBbox": [
+        710000,
+        5162000,
+        712000,
+        5164000
+      ],
+      "requestBbox": [
+        709993.75,
+        5161993.75,
+        712006.25,
+        5164006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=709993.75%2C5161993.75%2C712006.25%2C5164006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:47.079Z",
+      "source": "source/710000-5162000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "22dacf7fe5e335e826c337065350e6d425f45451f4e8e5bf529bc28e21408711",
+      "origin": [
+        709993.75,
+        5164006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1842.68994140625,
+        2555.659912109375
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/710000-5162000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "cc244feda506267699fba127ef53f9f6ad8253868ccca860dd6bf1909bd3f7de"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/710000-5162000-5m.f32",
+          "bytes": 643204,
+          "sha256": "77efc294fead32d7cefa7bfc649d7217141ff49ac8265efcb633b458affd2df2"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/710000-5162000-10m.f32",
+          "bytes": 161604,
+          "sha256": "489f4f7a50113eb49c68f5a79f75d9d4e7228d412eccbc7fbd7768d3183905fc"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/710000-5162000-20m.f32",
+          "bytes": 40804,
+          "sha256": "d8e284c86f578735ad9f500c036e5abb8836cb98d569ef26a625ca5dd2a3545b"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/710000-5162000-40m.f32",
+          "bytes": 10404,
+          "sha256": "d74a2d0e66444d329581e033595701f3be2dfa9a82a410559e9fb74906641734"
+        }
+      ]
+    },
+    {
+      "id": "712000-5162000",
+      "e": 712000,
+      "n": 5162000,
+      "coreBbox": [
+        712000,
+        5162000,
+        714000,
+        5164000
+      ],
+      "requestBbox": [
+        711993.75,
+        5161993.75,
+        714006.25,
+        5164006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=711993.75%2C5161993.75%2C714006.25%2C5164006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:58.383Z",
+      "source": "source/712000-5162000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "fb7e2ca41354ea8f654fc0044d50b7e0fff6269a8296bdc80e6ef5c9652988b5",
+      "origin": [
+        711993.75,
+        5164006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        2014.9300537109375,
+        2758.340087890625
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/712000-5162000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "8c0efe8bb9901b4587624c56bd074631ea718a83a965b31ba4554cabd0a9e63c"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/712000-5162000-5m.f32",
+          "bytes": 643204,
+          "sha256": "8e768307c3e56a93d0935d32016eba2eaf4ee32551fdcc99b7839769d0e02e70"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/712000-5162000-10m.f32",
+          "bytes": 161604,
+          "sha256": "c35f33c1e3eb4ac5addf7d0f07adf8a3128d67537278c0366292d0417909d0a8"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/712000-5162000-20m.f32",
+          "bytes": 40804,
+          "sha256": "02b076d35781db19a7b9fe76dc1d404acc814954fc8c3fd9bd8dfab7d02202d0"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/712000-5162000-40m.f32",
+          "bytes": 10404,
+          "sha256": "da70205bba1b4180ab3bb8e2d2c3504270fb26bee32d37ff91400f1a5a0e3ab8"
+        }
+      ]
+    },
+    {
+      "id": "714000-5162000",
+      "e": 714000,
+      "n": 5162000,
+      "coreBbox": [
+        714000,
+        5162000,
+        716000,
+        5164000
+      ],
+      "requestBbox": [
+        713993.75,
+        5161993.75,
+        716006.25,
+        5164006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=713993.75%2C5161993.75%2C716006.25%2C5164006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:57:58.849Z",
+      "source": "source/714000-5162000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "4533ab0be8c29238b702112e81e2ad62182f769976c1b28602ad2c00591ca2de",
+      "origin": [
+        713993.75,
+        5164006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1797.97998046875,
+        2739.52001953125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/714000-5162000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "159bfaadfe595ad22e2510034e81ac1e72c85b4e263d37c56dfb117018809776"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/714000-5162000-5m.f32",
+          "bytes": 643204,
+          "sha256": "fed3857a393981941f88d35b933efdf35aa6f6d8498fae10baec9f1d218474ca"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/714000-5162000-10m.f32",
+          "bytes": 161604,
+          "sha256": "85409ca01620becb5f2c4c9f8c97d9a8ae5123a117a6a19b8c951f4f158561e2"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/714000-5162000-20m.f32",
+          "bytes": 40804,
+          "sha256": "6a922f4179ba8da490eaa0d02ce5b76eb111d4ee69b32d6a3cd43a43988422d6"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/714000-5162000-40m.f32",
+          "bytes": 10404,
+          "sha256": "96cee17f2789e3719003288ee2c88b08653b0b39294561b6a27491a971695856"
+        }
+      ]
+    },
+    {
+      "id": "702000-5164000",
+      "e": 702000,
+      "n": 5164000,
+      "coreBbox": [
+        702000,
+        5164000,
+        704000,
+        5166000
+      ],
+      "requestBbox": [
+        701993.75,
+        5163993.75,
+        704006.25,
+        5166006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=701993.75%2C5163993.75%2C704006.25%2C5166006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:09.782Z",
+      "source": "source/702000-5164000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "eb14aa7db4fe9761eb6adf0d6d31ef6b7526bf93fbc9144543a3adcf0d7e040c",
+      "origin": [
+        701993.75,
+        5166006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1430.31005859375,
+        2281.639892578125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/702000-5164000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "1d8a8e9e1cb1d3685072ff3e7c1808b675362ccd436d35e657e05dbdbdc1c88d"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/702000-5164000-5m.f32",
+          "bytes": 643204,
+          "sha256": "591e8c62debb349ce91344ca5e11c83f7620f0f75a6028fa066c5514f401e237"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/702000-5164000-10m.f32",
+          "bytes": 161604,
+          "sha256": "8230c01a9301f75a2f17388ff188ea1c782ec47990a2dba02af18dc2db8f7f71"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/702000-5164000-20m.f32",
+          "bytes": 40804,
+          "sha256": "c3c0c3272442ea3254c962501c91b3a4782f24995b5c87a35d92a5e45a59a8a4"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/702000-5164000-40m.f32",
+          "bytes": 10404,
+          "sha256": "bfebc22c7ae4aa6962a77d3fc1644bd06dfbbe7187ed2af482cba30723271acc"
+        }
+      ]
+    },
+    {
+      "id": "704000-5164000",
+      "e": 704000,
+      "n": 5164000,
+      "coreBbox": [
+        704000,
+        5164000,
+        706000,
+        5166000
+      ],
+      "requestBbox": [
+        703993.75,
+        5163993.75,
+        706006.25,
+        5166006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=703993.75%2C5163993.75%2C706006.25%2C5166006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:10.307Z",
+      "source": "source/704000-5164000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "ef1a1bc4766753e00f3bebfadbbe799c8f835fdaffea9b7109be60befd31aee9",
+      "origin": [
+        703993.75,
+        5166006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1385.77001953125,
+        2295.1298828125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/704000-5164000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "5fd42cac1580bfe03604dde69a2bad46c91a4727e03be8c0a26166b19269fd1b"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/704000-5164000-5m.f32",
+          "bytes": 643204,
+          "sha256": "305d19bc7e70212a441112651d2f19378f973120d3c7019144f6913782da28db"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/704000-5164000-10m.f32",
+          "bytes": 161604,
+          "sha256": "8b1a76790042d13de7283d4c8020c7920549cf4e1a47049cccf30467c9c0ab85"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/704000-5164000-20m.f32",
+          "bytes": 40804,
+          "sha256": "f91e328ed426a74e2156a0bbe598285994e0bfd7777f114a4078b4c4f5f41eab"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/704000-5164000-40m.f32",
+          "bytes": 10404,
+          "sha256": "48c40e5a07830a8317f2890fa75f790fda46d56378b7ea02b488a8ab54b0bcb0"
+        }
+      ]
+    },
+    {
+      "id": "706000-5164000",
+      "e": 706000,
+      "n": 5164000,
+      "coreBbox": [
+        706000,
+        5164000,
+        708000,
+        5166000
+      ],
+      "requestBbox": [
+        705993.75,
+        5163993.75,
+        708006.25,
+        5166006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=705993.75%2C5163993.75%2C708006.25%2C5166006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:21.286Z",
+      "source": "source/706000-5164000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "e5f7d64f3474bda44a0077c7b9159dd8c2a9c845e8c6de6642eca8c44d97eb4c",
+      "origin": [
+        705993.75,
+        5166006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1783.2900390625,
+        2317.669921875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/706000-5164000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "75383d8f569f1d1e3e95f2b76fc4162be35dab076ff8bd30a4525697eaf7ca31"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/706000-5164000-5m.f32",
+          "bytes": 643204,
+          "sha256": "18eef951cbf0693fe83d5f1b997a7247f94454f015e843847c8f810654e9388d"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/706000-5164000-10m.f32",
+          "bytes": 161604,
+          "sha256": "fb92d68c8333c511930b5672ae2dc67ed97a1fa9612cf250f3cdcd23e6aa6836"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/706000-5164000-20m.f32",
+          "bytes": 40804,
+          "sha256": "cc3af3765d4e49f9575be572eeca0d06d39ea9f44ae050a547b77de32df2c372"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/706000-5164000-40m.f32",
+          "bytes": 10404,
+          "sha256": "26e6600b3a69101d77ce5d9ce08e346bbc29517ccf34926c5f741050c69915c5"
+        }
+      ]
+    },
+    {
+      "id": "708000-5164000",
+      "e": 708000,
+      "n": 5164000,
+      "coreBbox": [
+        708000,
+        5164000,
+        710000,
+        5166000
+      ],
+      "requestBbox": [
+        707993.75,
+        5163993.75,
+        710006.25,
+        5166006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=707993.75%2C5163993.75%2C710006.25%2C5166006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:21.815Z",
+      "source": "source/708000-5164000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "cd2f1ae12aec8620dcaeac5cd6c31b4236b2b2494d1bddf8ffdce057cc5370e1",
+      "origin": [
+        707993.75,
+        5166006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1713.06005859375,
+        2566.030029296875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/708000-5164000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "fcbc9e00c37a4aa017111c59a84215e171077d01df6bc013f96b73ceb0c32c14"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/708000-5164000-5m.f32",
+          "bytes": 643204,
+          "sha256": "d841f25382894b0969d9b13a22e0c7f0e2dd0c67f0dcdd2b8036c9c487a0e509"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/708000-5164000-10m.f32",
+          "bytes": 161604,
+          "sha256": "2694cf71c747eda559b6d36e65b27fd32bbcd9b365e48c3a4256a30ab2174038"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/708000-5164000-20m.f32",
+          "bytes": 40804,
+          "sha256": "feda2c450f847880548589a4fdfc8b6094481a22c0193a0d368509c0cf1f809d"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/708000-5164000-40m.f32",
+          "bytes": 10404,
+          "sha256": "b842c22257e9bea466b60226e446f595021b9395a390cde5f5fe99aaea439716"
+        }
+      ]
+    },
+    {
+      "id": "710000-5164000",
+      "e": 710000,
+      "n": 5164000,
+      "coreBbox": [
+        710000,
+        5164000,
+        712000,
+        5166000
+      ],
+      "requestBbox": [
+        709993.75,
+        5163993.75,
+        712006.25,
+        5166006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=709993.75%2C5163993.75%2C712006.25%2C5166006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:21.868Z",
+      "source": "source/710000-5164000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "284b5a59b8fd72739eea49915fcffa0582d45a93a66aa4457bb32890611ee96c",
+      "origin": [
+        709993.75,
+        5166006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1776.8399658203125,
+        3019.8701171875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/710000-5164000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "787344bf587072d8fa533a3d6ff5d415e43436bb895e39638e822d842952ea48"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/710000-5164000-5m.f32",
+          "bytes": 643204,
+          "sha256": "45a30f9c367724ff99f3f43969dfe91831bb4665bdf5bd9c21eb961396812282"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/710000-5164000-10m.f32",
+          "bytes": 161604,
+          "sha256": "b756c70739ac412b21bb34def08812bbfaef8f8cdaf74dd789e0e0c11a2ee9fb"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/710000-5164000-20m.f32",
+          "bytes": 40804,
+          "sha256": "fb8cf7b53182a35091f085e1c6e3b8d52633d6f2a7bd78866577f31821534a9e"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/710000-5164000-40m.f32",
+          "bytes": 10404,
+          "sha256": "6b3beb50d6771fdb9cc92d19e8e049d45f5eb0331f1b3fc683d32c421e7b4ca6"
+        }
+      ]
+    },
+    {
+      "id": "712000-5164000",
+      "e": 712000,
+      "n": 5164000,
+      "coreBbox": [
+        712000,
+        5164000,
+        714000,
+        5166000
+      ],
+      "requestBbox": [
+        711993.75,
+        5163993.75,
+        714006.25,
+        5166006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=711993.75%2C5163993.75%2C714006.25%2C5166006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:33.163Z",
+      "source": "source/712000-5164000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "6c3a3ad5c92ef828331159be50eb8ebc541a7cfbbee5ab7018cb35986bfcbcd6",
+      "origin": [
+        711993.75,
+        5166006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        2105.830078125,
+        3021.60009765625
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/712000-5164000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "250b6809f9d2c1f303d2e9ecc6fbf952074b601c57035e9b7665979446b377db"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/712000-5164000-5m.f32",
+          "bytes": 643204,
+          "sha256": "9655f7ae04fd9a22baa9d0c6ede76254de93631a768a15681ca7529be9b6bf1d"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/712000-5164000-10m.f32",
+          "bytes": 161604,
+          "sha256": "8f539c384e9d81a50ba04a0061a8f9b8a5b50e0d3fa010b46a3306bf2d30a9bb"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/712000-5164000-20m.f32",
+          "bytes": 40804,
+          "sha256": "3cd3bc102f8068419ddb06f24548a63e54b18dd2e09fc8b473f7ac8f88775106"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/712000-5164000-40m.f32",
+          "bytes": 10404,
+          "sha256": "c30d9e01ce869c1eae02b97db6e2654ca4de77be74837da2e107df8573eaaebc"
+        }
+      ]
+    },
+    {
+      "id": "714000-5164000",
+      "e": 714000,
+      "n": 5164000,
+      "coreBbox": [
+        714000,
+        5164000,
+        716000,
+        5166000
+      ],
+      "requestBbox": [
+        713993.75,
+        5163993.75,
+        716006.25,
+        5166006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=713993.75%2C5163993.75%2C716006.25%2C5166006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:44.488Z",
+      "source": "source/714000-5164000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "5dea6bba06b727204377bfb9d09322d580ad471bbcba14ff3b1f27c0ab4ed6b3",
+      "origin": [
+        713993.75,
+        5166006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1915.050048828125,
+        2915.429931640625
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/714000-5164000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "1cf20c6c9fc6d3dbeba2401abf7aee8c72270806b4977bd406cd18422270fb6d"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/714000-5164000-5m.f32",
+          "bytes": 643204,
+          "sha256": "4c33004add12d4119475b28083a4298f803705da015826e6a5b5cf28e338d8f0"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/714000-5164000-10m.f32",
+          "bytes": 161604,
+          "sha256": "9ff9a58990f7422963ccde8535088e9f3b57a0d2c2f5167e86080ec00ae18088"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/714000-5164000-20m.f32",
+          "bytes": 40804,
+          "sha256": "e6ef00418ef1baa1852f6ca601ff28525bf0f3e7ee7abeb6f8d68b354ceff6d0"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/714000-5164000-40m.f32",
+          "bytes": 10404,
+          "sha256": "3f45619eb2ecbba82a24c0d6bc138d68da28789f9fda7fcc91d1672af5adae9c"
+        }
+      ]
+    },
+    {
+      "id": "702000-5166000",
+      "e": 702000,
+      "n": 5166000,
+      "coreBbox": [
+        702000,
+        5166000,
+        704000,
+        5168000
+      ],
+      "requestBbox": [
+        701993.75,
+        5165993.75,
+        704006.25,
+        5168006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=701993.75%2C5165993.75%2C704006.25%2C5168006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:44.092Z",
+      "source": "source/702000-5166000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "112bbd61b24db1ad19e0b27c70994af34af9439fa643debd4c5bb6d35d444d85",
+      "origin": [
+        701993.75,
+        5168006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        952.2100219726562,
+        1922.31005859375
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/702000-5166000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "cf25b0e6f08cd2d83548b7f6ab0dea73e861e887d7080e2916e5b39662e0ed37"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/702000-5166000-5m.f32",
+          "bytes": 643204,
+          "sha256": "422ff1a1fbda869ab6224dbb6f6f6712392120822950dbf42078d683976e8cfa"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/702000-5166000-10m.f32",
+          "bytes": 161604,
+          "sha256": "d5c170964ef8f9c1412586f29ebb8c3a5feebbbc4ba3399851ef2d67aca9123b"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/702000-5166000-20m.f32",
+          "bytes": 40804,
+          "sha256": "ce1740c878fa8b92c1a032bc0b82447624dda0111d8be96d2a14997673b7c93d"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/702000-5166000-40m.f32",
+          "bytes": 10404,
+          "sha256": "f6a9283219db1c5fd4142267305481bfad94fed95c9dc8731e5631264e94d42c"
+        }
+      ]
+    },
+    {
+      "id": "704000-5166000",
+      "e": 704000,
+      "n": 5166000,
+      "coreBbox": [
+        704000,
+        5166000,
+        706000,
+        5168000
+      ],
+      "requestBbox": [
+        703993.75,
+        5165993.75,
+        706006.25,
+        5168006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=703993.75%2C5165993.75%2C706006.25%2C5168006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:55.707Z",
+      "source": "source/704000-5166000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "78bd711d440ac0283a03c2f7a0561976c092d95d1d9db733ec59690d8e241f51",
+      "origin": [
+        703993.75,
+        5168006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1011.6400146484375,
+        2074.52001953125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/704000-5166000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "e6fb39d6c3cb75c0e7c906359b493bb15583c8dcce6a0fcfa92dc65e408d0e92"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/704000-5166000-5m.f32",
+          "bytes": 643204,
+          "sha256": "f9e478a2f43f66a256646c53fed053109dfe8e22cb3bbd053e5c82a7c630050d"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/704000-5166000-10m.f32",
+          "bytes": 161604,
+          "sha256": "d98bdd8ba0753eb9d7d8d5ae0418cec4a79ac3d272c21f6ec947d6b5bf80a087"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/704000-5166000-20m.f32",
+          "bytes": 40804,
+          "sha256": "15afaa059769621c10f441919494bb5f84bcebc5c73dd8784ba963d49e4c04e2"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/704000-5166000-40m.f32",
+          "bytes": 10404,
+          "sha256": "b4aa4f0f1c1718fc0c12cc0dca6762de5548c34df6be4fa67ea9b6152d4742b2"
+        }
+      ]
+    },
+    {
+      "id": "706000-5166000",
+      "e": 706000,
+      "n": 5166000,
+      "coreBbox": [
+        706000,
+        5166000,
+        708000,
+        5168000
+      ],
+      "requestBbox": [
+        705993.75,
+        5165993.75,
+        708006.25,
+        5168006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=705993.75%2C5165993.75%2C708006.25%2C5168006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:58:55.078Z",
+      "source": "source/706000-5166000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "c6c8d2036c597a0429214b9d4aa53e745b3e81fb18d4cd6f1664df3582fd365e",
+      "origin": [
+        705993.75,
+        5168006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1299.969970703125,
+        2302.02001953125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/706000-5166000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "349ff496a59c2de03b4628bae5f619e335344a1d186ac443cbf04e8fc96370ba"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/706000-5166000-5m.f32",
+          "bytes": 643204,
+          "sha256": "d7a6306ccfd96c217ca0875e9e3fe383d4ba0fdcd20ec14980bb2f0a46d2baef"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/706000-5166000-10m.f32",
+          "bytes": 161604,
+          "sha256": "aa1fb4bbde35aa1c2fe38aadeb92a56c157e7de66937f701f3f5d28c28922152"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/706000-5166000-20m.f32",
+          "bytes": 40804,
+          "sha256": "ce8fa044a278d513c11495c85929523868105eeea513c819c85abc882bc12326"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/706000-5166000-40m.f32",
+          "bytes": 10404,
+          "sha256": "d41bc5cdf32176c18df431f96413f842f9ebda7f6241f6ea834f1854a884cfb7"
+        }
+      ]
+    },
+    {
+      "id": "708000-5166000",
+      "e": 708000,
+      "n": 5166000,
+      "coreBbox": [
+        708000,
+        5166000,
+        710000,
+        5168000
+      ],
+      "requestBbox": [
+        707993.75,
+        5165993.75,
+        710006.25,
+        5168006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=707993.75%2C5165993.75%2C710006.25%2C5168006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:06.902Z",
+      "source": "source/708000-5166000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "840e309256b0c761a93b9251658d56e02859ad9aa6947442d7d6637712572bb5",
+      "origin": [
+        707993.75,
+        5168006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1384.3399658203125,
+        2299.8701171875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/708000-5166000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "4ffa8024400cc788646bae463cc30cadc846c19e550141cdd34825badf0a53e6"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/708000-5166000-5m.f32",
+          "bytes": 643204,
+          "sha256": "16d94280766715b647a714190707ff45c90c3714d58e68b319b825e8c7635fc6"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/708000-5166000-10m.f32",
+          "bytes": 161604,
+          "sha256": "77574cc8a46c1e9c8aa6531c1d96088534efb567471eb171ac342ab375b9f02d"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/708000-5166000-20m.f32",
+          "bytes": 40804,
+          "sha256": "dee024d131dd96cdb31bed5518748a97b66d0e7c1167689064d1079d14620726"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/708000-5166000-40m.f32",
+          "bytes": 10404,
+          "sha256": "dd1b540c0308f0e8cce2d5051f3a02e7e3e3766caf72fb14fc818c8d2c466ce6"
+        }
+      ]
+    },
+    {
+      "id": "710000-5166000",
+      "e": 710000,
+      "n": 5166000,
+      "coreBbox": [
+        710000,
+        5166000,
+        712000,
+        5168000
+      ],
+      "requestBbox": [
+        709993.75,
+        5165993.75,
+        712006.25,
+        5168006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=709993.75%2C5165993.75%2C712006.25%2C5168006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:06.245Z",
+      "source": "source/710000-5166000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "d3f8f7bda08f45c50e0ccba317f49da66ecf7f7d30476f3030a13aa497baeb38",
+      "origin": [
+        709993.75,
+        5168006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1574.050048828125,
+        2255.360107421875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/710000-5166000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "f7b75a3a3c29f9473c4250774820fdc69a148a316d296cdb11c9f66f8b76dff4"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/710000-5166000-5m.f32",
+          "bytes": 643204,
+          "sha256": "0f9983b7613b1e1dd6473ba517fa0812631df3c2819403e1ad3fd671e233bf02"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/710000-5166000-10m.f32",
+          "bytes": 161604,
+          "sha256": "fae7ac0c7a1210f7e123fdbca5244227547db59121d563e22cb62c7231c7d589"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/710000-5166000-20m.f32",
+          "bytes": 40804,
+          "sha256": "c188351003dbef17b53b48acd1a48e4004df017e8e1f451613917192a13ac4e4"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/710000-5166000-40m.f32",
+          "bytes": 10404,
+          "sha256": "5007051a279dca9ec5464e58c49794a1538f27334e4735a2bfbc67dba6231f65"
+        }
+      ]
+    },
+    {
+      "id": "712000-5166000",
+      "e": 712000,
+      "n": 5166000,
+      "coreBbox": [
+        712000,
+        5166000,
+        714000,
+        5168000
+      ],
+      "requestBbox": [
+        711993.75,
+        5165993.75,
+        714006.25,
+        5168006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=711993.75%2C5165993.75%2C714006.25%2C5168006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:18.056Z",
+      "source": "source/712000-5166000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "a6a4ca90ca976ae21c563e3c78c70e8a16615e57b49106fbd8b8819940443bae",
+      "origin": [
+        711993.75,
+        5168006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1713.280029296875,
+        2828.530029296875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/712000-5166000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "6c60a5564a76f2d492a66bd41a85443e304dfb5920105bd8be8b989784e5658d"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/712000-5166000-5m.f32",
+          "bytes": 643204,
+          "sha256": "148c3849524fe4a34811a1058ae17d1f16b2d291ac6293169c19111ecde52d7e"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/712000-5166000-10m.f32",
+          "bytes": 161604,
+          "sha256": "212ee5d451f33f821ceac9ecc03c7483e5f171ce80ced5f727ec5caf2be62414"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/712000-5166000-20m.f32",
+          "bytes": 40804,
+          "sha256": "a38e076f3c8e3ab58f766fb974258d6dfd71e76c5d093709a9af187ba94f0354"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/712000-5166000-40m.f32",
+          "bytes": 10404,
+          "sha256": "7ed7628ef48c5d8b27bea7f82947437b178c6ad1f0a8f9ba84b045d66f3aebc7"
+        }
+      ]
+    },
+    {
+      "id": "714000-5166000",
+      "e": 714000,
+      "n": 5166000,
+      "coreBbox": [
+        714000,
+        5166000,
+        716000,
+        5168000
+      ],
+      "requestBbox": [
+        713993.75,
+        5165993.75,
+        716006.25,
+        5168006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=713993.75%2C5165993.75%2C716006.25%2C5168006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:17.514Z",
+      "source": "source/714000-5166000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "ddba66691bcac179534a9a4d2ce6ce459ba43526989afc5cbfacfdd19a0863cb",
+      "origin": [
+        713993.75,
+        5168006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1833.8900146484375,
+        2485.090087890625
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/714000-5166000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "5bc1edf536d75f9f3a7fa9095b2f6d86094b4c08c7bd0633bbb1c29d75ed144a"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/714000-5166000-5m.f32",
+          "bytes": 643204,
+          "sha256": "45e558e3f40d8ae653238ef9615f415352ba486dbeb65c79bf99663ebaea56e1"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/714000-5166000-10m.f32",
+          "bytes": 161604,
+          "sha256": "0d18c8f33dc72d89979a27fe8752fc938d525576c09e9999fa60d9314d8816fa"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/714000-5166000-20m.f32",
+          "bytes": 40804,
+          "sha256": "ef05f8abe801a66e439c187b38cd06a1e6ce1d976a5dcc783d1e2b1c937c4769"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/714000-5166000-40m.f32",
+          "bytes": 10404,
+          "sha256": "dbb5b728a5b3a0f0718bfb66362126536e9cee68d882bb297026b0f4e1aa2b2d"
+        }
+      ]
+    },
+    {
+      "id": "702000-5168000",
+      "e": 702000,
+      "n": 5168000,
+      "coreBbox": [
+        702000,
+        5168000,
+        704000,
+        5170000
+      ],
+      "requestBbox": [
+        701993.75,
+        5167993.75,
+        704006.25,
+        5170006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=701993.75%2C5167993.75%2C704006.25%2C5170006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:29.309Z",
+      "source": "source/702000-5168000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "0fd1fcc308e2c32b5d009dc51f9ef11953b737aa76e53883e30494979bc7df40",
+      "origin": [
+        701993.75,
+        5170006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        834.02001953125,
+        1466.800048828125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/702000-5168000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "d339c745397c40c9378d1c5a921aecd41b8fb0bc8c997016078b8d86f2a97383"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/702000-5168000-5m.f32",
+          "bytes": 643204,
+          "sha256": "0d72573df709bf0155b42813f2be75d2c0e1181fa68d2ef231ba5f0a4d9185a8"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/702000-5168000-10m.f32",
+          "bytes": 161604,
+          "sha256": "8938428b3d5b4c93b27085265d6e62cc70ba170e42b7a7f955abfa118e3df0bc"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/702000-5168000-20m.f32",
+          "bytes": 40804,
+          "sha256": "d3c9c9b979ba99843051dbcdeb742fbbb4127cfc8a230921162eea781318e70a"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/702000-5168000-40m.f32",
+          "bytes": 10404,
+          "sha256": "81d2881ea523deb05c881f168abfdc1db9860c6446f4e3dd83a8413cb0d33825"
+        }
+      ]
+    },
+    {
+      "id": "704000-5168000",
+      "e": 704000,
+      "n": 5168000,
+      "coreBbox": [
+        704000,
+        5168000,
+        706000,
+        5170000
+      ],
+      "requestBbox": [
+        703993.75,
+        5167993.75,
+        706006.25,
+        5170006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=703993.75%2C5167993.75%2C706006.25%2C5170006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:28.666Z",
+      "source": "source/704000-5168000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "7e8ff65fda54b77d80c020870ddec7c47e6fd909080828a3b8794054cf7fd9cc",
+      "origin": [
+        703993.75,
+        5170006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        993.9500122070312,
+        1536.0699462890625
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/704000-5168000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "7db15883ba120ea1e15ffc989e9316fa2fc37e027c3aa359e45ebbfc1b527f2c"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/704000-5168000-5m.f32",
+          "bytes": 643204,
+          "sha256": "7f453d6d147cff4dc4231e16c3850496f8c769f15a5fdf67d5ef69750fd5064f"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/704000-5168000-10m.f32",
+          "bytes": 161604,
+          "sha256": "78a54465e3e561427d44dfb9df68875a9b89245f89a05ac431e88c3f98584000"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/704000-5168000-20m.f32",
+          "bytes": 40804,
+          "sha256": "81f0e3931ad74dda73f36c986a1e54e9a96129c38950f1e5fd147ad38da44fa0"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/704000-5168000-40m.f32",
+          "bytes": 10404,
+          "sha256": "2423aa7932185f5abdd9c475dd79d7c990cf5790fe2eecafcb5a8d76a9bfa3d9"
+        }
+      ]
+    },
+    {
+      "id": "706000-5168000",
+      "e": 706000,
+      "n": 5168000,
+      "coreBbox": [
+        706000,
+        5168000,
+        708000,
+        5170000
+      ],
+      "requestBbox": [
+        705993.75,
+        5167993.75,
+        708006.25,
+        5170006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=705993.75%2C5167993.75%2C708006.25%2C5170006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:40.581Z",
+      "source": "source/706000-5168000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "5abebfe69e59e710fbaa2b50fe5b47cc9c92d48990d744dbfb8576691b62200a",
+      "origin": [
+        705993.75,
+        5170006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1118.199951171875,
+        1591.4200439453125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/706000-5168000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "fd8836e869a394c34ce97c553e051c8db6912e218038761bc1c12658dd273039"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/706000-5168000-5m.f32",
+          "bytes": 643204,
+          "sha256": "d5e79cce98157c694f5cfd58cf0c8bc9c00f32c215036333f985e661deb283ca"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/706000-5168000-10m.f32",
+          "bytes": 161604,
+          "sha256": "72305450d3ae391d85e4c9b7eefd331ca9b0601c53355c2bfa33f83906f70a06"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/706000-5168000-20m.f32",
+          "bytes": 40804,
+          "sha256": "00a2346ed7aa68864effc4cdb607152dc03ef43cce9f572878b27baf976defcc"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/706000-5168000-40m.f32",
+          "bytes": 10404,
+          "sha256": "cac379baab26d0c97c044709140f8eb23635dec59303f7f129030abc0dd39174"
+        }
+      ]
+    },
+    {
+      "id": "708000-5168000",
+      "e": 708000,
+      "n": 5168000,
+      "coreBbox": [
+        708000,
+        5168000,
+        710000,
+        5170000
+      ],
+      "requestBbox": [
+        707993.75,
+        5167993.75,
+        710006.25,
+        5170006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=707993.75%2C5167993.75%2C710006.25%2C5170006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:39.952Z",
+      "source": "source/708000-5168000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "ba371c230e4476917cba3dd4758a7e0ad14564e4c88630f9f02742b5f05db6c0",
+      "origin": [
+        707993.75,
+        5170006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1264.6300048828125,
+        2105.77001953125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/708000-5168000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "c28ef012159e1e3fdebfc804108221f382b61e1dc2f98023e330d4b645eb50f5"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/708000-5168000-5m.f32",
+          "bytes": 643204,
+          "sha256": "a87ceee532a511e05626653f54eb2c46e2ee77205dc7b5699f1856d7be7f6bb0"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/708000-5168000-10m.f32",
+          "bytes": 161604,
+          "sha256": "c7ffcb9a160be15e7017df86f884df5f49e4d0cb0de2202f46561280bec0dde9"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/708000-5168000-20m.f32",
+          "bytes": 40804,
+          "sha256": "448e84031ab4b9e91be34d7a32f364d175f033e96ae654037a1916804ab08904"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/708000-5168000-40m.f32",
+          "bytes": 10404,
+          "sha256": "a6c63d173e4e17497da2b0a685afd88a3db2ada113363f4ba0bcf9921bfc5a62"
+        }
+      ]
+    },
+    {
+      "id": "710000-5168000",
+      "e": 710000,
+      "n": 5168000,
+      "coreBbox": [
+        710000,
+        5168000,
+        712000,
+        5170000
+      ],
+      "requestBbox": [
+        709993.75,
+        5167993.75,
+        712006.25,
+        5170006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=709993.75%2C5167993.75%2C712006.25%2C5170006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:52.016Z",
+      "source": "source/710000-5168000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "a239af69082e27d9d35d5ca3e17c5dc6473e1e478728b522c3294baef835c63a",
+      "origin": [
+        709993.75,
+        5170006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1499.1500244140625,
+        2462.179931640625
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/710000-5168000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "f2e628675d445fd776a8bf9626336564880946cdcf1a3d5caf640029f196487d"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/710000-5168000-5m.f32",
+          "bytes": 643204,
+          "sha256": "5b4a4a9a8afca24374ea40eec2f5b55e1d3cfd1bd1ea8122d62b42f18840ac9b"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/710000-5168000-10m.f32",
+          "bytes": 161604,
+          "sha256": "2cd3638897e15070c2b0cbbf180ce1be9ed929e5d682bf73628f9a8601584a16"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/710000-5168000-20m.f32",
+          "bytes": 40804,
+          "sha256": "045e2027f9b32ba8052adcab08894fb90697b63cfdb4c57fe2bbe9843019c9fe"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/710000-5168000-40m.f32",
+          "bytes": 10404,
+          "sha256": "44018d89361415ec0aa009fa86e5a87239b36fe9a137c917481f04cb6f903506"
+        }
+      ]
+    },
+    {
+      "id": "712000-5168000",
+      "e": 712000,
+      "n": 5168000,
+      "coreBbox": [
+        712000,
+        5168000,
+        714000,
+        5170000
+      ],
+      "requestBbox": [
+        711993.75,
+        5167993.75,
+        714006.25,
+        5170006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=711993.75%2C5167993.75%2C714006.25%2C5170006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T14:59:51.172Z",
+      "source": "source/712000-5168000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "14858f910c0805a9697cff4892b4156fe7bf1369cb5c91966138466cab289652",
+      "origin": [
+        711993.75,
+        5170006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1695.6099853515625,
+        2621.610107421875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/712000-5168000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "261a43c0769c2d4edb4549bfabfb76e08b7fffb6a1f43286af0ce167ff604b0f"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/712000-5168000-5m.f32",
+          "bytes": 643204,
+          "sha256": "3a6dde89334a30a0f5b75fd04e8a11b1f3cdec3baf8cdfc60192a82f22789559"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/712000-5168000-10m.f32",
+          "bytes": 161604,
+          "sha256": "6b8de019215bd8dc1f57ab938eff38ed645731e3d245c1731992ed32bd95c66a"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/712000-5168000-20m.f32",
+          "bytes": 40804,
+          "sha256": "d487c5215c5e4b6ffdb9ebe9f3aa6921665362c3cffe0c0ef1c54bfe84809411"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/712000-5168000-40m.f32",
+          "bytes": 10404,
+          "sha256": "847defb19e17205c6b4d05ddd65058d63fce8782ef0ba0fdd467cf0618b33da0"
+        }
+      ]
+    },
+    {
+      "id": "714000-5168000",
+      "e": 714000,
+      "n": 5168000,
+      "coreBbox": [
+        714000,
+        5168000,
+        716000,
+        5170000
+      ],
+      "requestBbox": [
+        713993.75,
+        5167993.75,
+        716006.25,
+        5170006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=713993.75%2C5167993.75%2C716006.25%2C5170006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T15:00:03.194Z",
+      "source": "source/714000-5168000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "34a649d766958d99e426c2d0d1815568a0879155a93267e33182fe2ee7d44ed1",
+      "origin": [
+        713993.75,
+        5170006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1838.68994140625,
+        2580.090087890625
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/714000-5168000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "9cc62f05e20e489d703e18c99e28129b3c52e22a5d9f35a66c57fc3f901d0145"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/714000-5168000-5m.f32",
+          "bytes": 643204,
+          "sha256": "4b24ebc1c63a487606acb1556deffec019887f4c72fb8154f6ef3547e665eab1"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/714000-5168000-10m.f32",
+          "bytes": 161604,
+          "sha256": "c3b780d59d5161eff790856ccf4f1ecee9bb95e199c48a41c3001e6977cc3e85"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/714000-5168000-20m.f32",
+          "bytes": 40804,
+          "sha256": "34e696c5dbfbbe200db8e837c4f43324e6a831b4e1431aaad714a2edf4b1a3d6"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/714000-5168000-40m.f32",
+          "bytes": 10404,
+          "sha256": "33b3aedcf1e364b75186505d672d971eb2b7e67eada6fe02a1d343767a2e7a75"
+        }
+      ]
+    },
+    {
+      "id": "702000-5170000",
+      "e": 702000,
+      "n": 5170000,
+      "coreBbox": [
+        702000,
+        5170000,
+        704000,
+        5172000
+      ],
+      "requestBbox": [
+        701993.75,
+        5169993.75,
+        704006.25,
+        5172006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=701993.75%2C5169993.75%2C704006.25%2C5172006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T15:00:02.558Z",
+      "source": "source/702000-5170000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "6672add7aa8c809f96c5c86dbaaeb91b92b9fef8e343542000424f6fbfa3e6a9",
+      "origin": [
+        701993.75,
+        5172006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        689.280029296875,
+        1499.4300537109375
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/702000-5170000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "0e0d80f6e2a438dfbe1267f70e1619bd691f3e10a59f0e9cd718669e9f6ca00d"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/702000-5170000-5m.f32",
+          "bytes": 643204,
+          "sha256": "7cb351c55b78c250a4821123112c8d2d73f10c0e40661755eaf71dc5cfb2d7ad"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/702000-5170000-10m.f32",
+          "bytes": 161604,
+          "sha256": "34a042b5d699f7737d2311a4b6a02b253d9b4ac29f353dacbc60c77048cccb6a"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/702000-5170000-20m.f32",
+          "bytes": 40804,
+          "sha256": "8b25e9becf5d85a6fd0162178c3cfcec4a348afaec680d33204f2c232d58d78a"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/702000-5170000-40m.f32",
+          "bytes": 10404,
+          "sha256": "ce1a86d905440fbcde75e78b70f489580e9bbd77233a0abe7fceb928b6a674ac"
+        }
+      ]
+    },
+    {
+      "id": "704000-5170000",
+      "e": 704000,
+      "n": 5170000,
+      "coreBbox": [
+        704000,
+        5170000,
+        706000,
+        5172000
+      ],
+      "requestBbox": [
+        703993.75,
+        5169993.75,
+        706006.25,
+        5172006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=703993.75%2C5169993.75%2C706006.25%2C5172006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T15:00:14.313Z",
+      "source": "source/704000-5170000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "488ea0151274d63bc2c12c7dabaa3da34a4d94c622ac5b9ad6beaac13b9febb1",
+      "origin": [
+        703993.75,
+        5172006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        864.0999755859375,
+        1695.7900390625
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/704000-5170000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "4602dbf35df8c82b97978fa5192bc08911d648c58fa7d9cf1d6caf987e0fd523"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/704000-5170000-5m.f32",
+          "bytes": 643204,
+          "sha256": "91057b8a7689acd567598945f3b67fa5ab357574c6f313fdf3c9d00099e6500f"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/704000-5170000-10m.f32",
+          "bytes": 161604,
+          "sha256": "40252c3f3331a37d9761e5f574c7a0c748fd5a984ee3b9852140f39bf43fb932"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/704000-5170000-20m.f32",
+          "bytes": 40804,
+          "sha256": "db53d9dae8dd1e2b02aa64497d98f2bca26f31a6b2f0d9803bc72a05ea22004d"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/704000-5170000-40m.f32",
+          "bytes": 10404,
+          "sha256": "78b13e57db7a4535fc16e5cf8003d5000ae64c17a35f714f074dc4b69186bd48"
+        }
+      ]
+    },
+    {
+      "id": "706000-5170000",
+      "e": 706000,
+      "n": 5170000,
+      "coreBbox": [
+        706000,
+        5170000,
+        708000,
+        5172000
+      ],
+      "requestBbox": [
+        705993.75,
+        5169993.75,
+        708006.25,
+        5172006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=705993.75%2C5169993.75%2C708006.25%2C5172006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T15:00:13.798Z",
+      "source": "source/706000-5170000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "0115609f613aa4cec6d273f8b8442f25b7ed15c5f1a89461998c09ec492e3612",
+      "origin": [
+        705993.75,
+        5172006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1145.31005859375,
+        1807.5899658203125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/706000-5170000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "cb78f8a446f266b05a61ef6e7205d0722fd81e8926a036a003e437a8b03f3054"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/706000-5170000-5m.f32",
+          "bytes": 643204,
+          "sha256": "dfb49cdcc4ec116c4c6b59e77fd53de654a113156e1fd5870f1c504e0cd29fa1"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/706000-5170000-10m.f32",
+          "bytes": 161604,
+          "sha256": "4ad3eca74c27d7f1fd05109abb4f6f431c03c069b483d4ac396a009cb761b438"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/706000-5170000-20m.f32",
+          "bytes": 40804,
+          "sha256": "4572ae0cc0c53876ab39401c1173339fe34d7955361a04d49baf5ff8bc19fecc"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/706000-5170000-40m.f32",
+          "bytes": 10404,
+          "sha256": "b8624d4812603fa75bf8689d564abd0731b13b4d7776180a29de0939ab37018a"
+        }
+      ]
+    },
+    {
+      "id": "708000-5170000",
+      "e": 708000,
+      "n": 5170000,
+      "coreBbox": [
+        708000,
+        5170000,
+        710000,
+        5172000
+      ],
+      "requestBbox": [
+        707993.75,
+        5169993.75,
+        710006.25,
+        5172006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=707993.75%2C5169993.75%2C710006.25%2C5172006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T15:00:25.076Z",
+      "source": "source/708000-5170000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "437972bee0d7e23e098ce0fea085a2f501daf4dd021f12fdb5035e5497cd921e",
+      "origin": [
+        707993.75,
+        5172006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1388.1099853515625,
+        1952.4200439453125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/708000-5170000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "91782e14b17279c14a21bea71efeefcbff719878f78d4950637e1930d2cd15ee"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/708000-5170000-5m.f32",
+          "bytes": 643204,
+          "sha256": "e08fe92ac1d8fd49b1dcadec1c7f33800a0956112f9ecca247983eb7c65d1e89"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/708000-5170000-10m.f32",
+          "bytes": 161604,
+          "sha256": "cfda53fd54308c91173542c93d1f4854e704edd34985d4b3bca29b02800e7e79"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/708000-5170000-20m.f32",
+          "bytes": 40804,
+          "sha256": "d8d75b31e09817bd8349d350ecb61fbaf7afd76206c364d91be0fb5318f23fd6"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/708000-5170000-40m.f32",
+          "bytes": 10404,
+          "sha256": "0f7565d9a3015c9aff287d4279764bb3d81e9630e1e634fb1783d45d5941b05d"
+        }
+      ]
+    },
+    {
+      "id": "710000-5170000",
+      "e": 710000,
+      "n": 5170000,
+      "coreBbox": [
+        710000,
+        5170000,
+        712000,
+        5172000
+      ],
+      "requestBbox": [
+        709993.75,
+        5169993.75,
+        712006.25,
+        5172006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=709993.75%2C5169993.75%2C712006.25%2C5172006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T15:00:24.693Z",
+      "source": "source/710000-5170000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "c1616740e71b3207812f43be0904b4d38b9094daeb5bcda75d85269ab723dc91",
+      "origin": [
+        709993.75,
+        5172006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1616.1800537109375,
+        2534.1201171875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/710000-5170000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "7987e26bbe26f6b43a2859ab1698d9d664277deec28196342dce086693233fbc"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/710000-5170000-5m.f32",
+          "bytes": 643204,
+          "sha256": "787d3d16163bb5b501f1bbb55a48c89e5b7704d2ce398c16eed28c6663393776"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/710000-5170000-10m.f32",
+          "bytes": 161604,
+          "sha256": "0f74303bff593621ce5338d50c51bfff08df522b990df327dacd0960ba47d31d"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/710000-5170000-20m.f32",
+          "bytes": 40804,
+          "sha256": "b18e8b4f439c1b28e315af12a3714a03145691b64a3ad7ed69dc675109693e43"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/710000-5170000-40m.f32",
+          "bytes": 10404,
+          "sha256": "eb72090814d13d31fc6abace11dcbe3ed3cc0f38e4dfb26ef1011d0f51747d55"
+        }
+      ]
+    },
+    {
+      "id": "712000-5170000",
+      "e": 712000,
+      "n": 5170000,
+      "coreBbox": [
+        712000,
+        5170000,
+        714000,
+        5172000
+      ],
+      "requestBbox": [
+        711993.75,
+        5169993.75,
+        714006.25,
+        5172006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=711993.75%2C5169993.75%2C714006.25%2C5172006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T15:00:36.130Z",
+      "source": "source/712000-5170000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "a59e27d81c48dc69c79fd0c1f9902e191402c3b9b7608acbe60d21655567f676",
+      "origin": [
+        711993.75,
+        5172006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1741.4200439453125,
+        2652.280029296875
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/712000-5170000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "29f8bd45403d74909fbb2c488c46b3fa2907469b1b00af700623b264adfa5274"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/712000-5170000-5m.f32",
+          "bytes": 643204,
+          "sha256": "88a2070912592e8ed0a517bfa2424278b111db19a8b723874022eeed9d870adb"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/712000-5170000-10m.f32",
+          "bytes": 161604,
+          "sha256": "86194ba74b4582ea497ebf58077f4e0009a88f27216a3511d946cf61dae2d81c"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/712000-5170000-20m.f32",
+          "bytes": 40804,
+          "sha256": "aee7602764d68f8d90ec6dbf2d2fb07144beaa7effc87907608df7c3260fd914"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/712000-5170000-40m.f32",
+          "bytes": 10404,
+          "sha256": "00d9d90c6aba9b233b81f164bed9feda45776f87942368d753875a054068053a"
+        }
+      ]
+    },
+    {
+      "id": "714000-5170000",
+      "e": 714000,
+      "n": 5170000,
+      "coreBbox": [
+        714000,
+        5170000,
+        716000,
+        5172000
+      ],
+      "requestBbox": [
+        713993.75,
+        5169993.75,
+        716006.25,
+        5172006.25
+      ],
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=713993.75%2C5169993.75%2C716006.25%2C5172006.25&width=805&height=805&format=GeoTIFF&interpolation=nearest+neighbor",
+      "retrieved": "2026-09-29T15:00:35.591Z",
+      "source": "source/714000-5170000.tif",
+      "sourceBytes": 10240436,
+      "sourceSHA256": "8eb1414968fde138f256a5188d50fab647439320b36661bc380e5fcbc13a603d",
+      "origin": [
+        713993.75,
+        5172006.25,
+        0
+      ],
+      "resolution": [
+        2.5,
+        2.5,
+        0
+      ],
+      "geoKeys": {
+        "GTModelTypeGeoKey": 1,
+        "GTRasterTypeGeoKey": 1,
+        "ProjectedCSTypeGeoKey": 25832
+      },
+      "nativeWidth": 805,
+      "nativeHeight": 805,
+      "noData": -9999,
+      "missing": 0,
+      "range": [
+        1813.469970703125,
+        2874.639892578125
+      ],
+      "levels": [
+        {
+          "spacing": 2.5,
+          "width": 801,
+          "height": 801,
+          "file": "tiles/714000-5170000-2.5m.f32",
+          "bytes": 2566404,
+          "sha256": "64444f8593665a28419b7c8649545e8fba626013c868189b8c3567124d6b75f2"
+        },
+        {
+          "spacing": 5,
+          "width": 401,
+          "height": 401,
+          "file": "tiles/714000-5170000-5m.f32",
+          "bytes": 643204,
+          "sha256": "585fc2a715da5fb8712d43902e3eeae9676289af4823cef4760f7f4846177d4d"
+        },
+        {
+          "spacing": 10,
+          "width": 201,
+          "height": 201,
+          "file": "tiles/714000-5170000-10m.f32",
+          "bytes": 161604,
+          "sha256": "29554d41e9ed7b66aac5e6660984f51492fc8f15f550440fcd2586495e90639d"
+        },
+        {
+          "spacing": 20,
+          "width": 101,
+          "height": 101,
+          "file": "tiles/714000-5170000-20m.f32",
+          "bytes": 40804,
+          "sha256": "39f9911b37d1157a3e10c33bbe65c68c20120271a85222919339ccd3ecab37a1"
+        },
+        {
+          "spacing": 40,
+          "width": 51,
+          "height": 51,
+          "file": "tiles/714000-5170000-40m.f32",
+          "bytes": 10404,
+          "sha256": "2c77f1de0fa93c299aeeb96b7e9d513337fb2f56237dae65ce90b078f1a06167"
+        }
+      ]
+    }
+  ],
+  "retrieved": "2026-09-29T15:00:36.156Z"
+}

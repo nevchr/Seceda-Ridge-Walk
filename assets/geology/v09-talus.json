@@ -1,0 +1,9 @@
+{
+  "source": "Original deterministic authored debris from committed V0.9 (9fd5271), exported from the preserved portable executable. Not survey data or a third-party asset.",
+  "license": "Original project work; no third-party license. No reference-photo pixels.",
+  "format": "Little-endian float32, 16 values per column-major Three.js instance matrix.",
+  "count": 4709,
+  "bytes": 301376,
+  "sha256": "cb29350e534fc169364328cdff62ce7557c572094ee84c366cc15fd8c34db91d",
+  "geometry": "Unchanged chipGeometry(817) in src/jointed-rock.js; material is unchanged V0.9 groundMaterial(true)."
+}

@@ -1,0 +1,5 @@
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);const{_electron}=require('C:/Users/chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const app=await _electron.launch({executablePath:'node_modules/electron/dist/electron.exe',args:['.']});const p=await app.firstWindow();await p.waitForFunction(()=>window.__seceda?.ready,null,{timeout:120000});await p.setViewportSize({width:1600,height:1000});
+await p.evaluate(()=>{const q=window.__seceda;q.hideUI();q.setPose(15.5,158,-.12,-.68);});
+for(const mode of ['original','flip','untextured']){await p.evaluate(mode=>{const q=window.__seceda;const mesh=q.scene.children.find(m=>m.name.startsWith('Natural meadow'));const m=mesh.material;if(mode==='flip'){m.alphaMap.flipY=true;m.alphaMap.needsUpdate=true;}if(mode==='untextured'){m.alphaMap.flipY=false;m.alphaMap.needsUpdate=true;m.map=null;m.normalMap=null;m.color.setRGB(.12,.22,.035);m.needsUpdate=true;}},mode);await p.waitForTimeout(1800);await p.screenshot({path:`artifacts/ridge-v05/grass-${mode}.png`});}await app.close();

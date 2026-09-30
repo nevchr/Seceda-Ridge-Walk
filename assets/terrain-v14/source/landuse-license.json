@@ -1,0 +1,9 @@
+{
+  "catalog": "https://data.civis.bz.it/it/dataset/carta-delluso-del-suolo-1-10-000",
+  "license": "cc-zero",
+  "title": "Carta dell'uso del suolo 1:10.000",
+  "notes": "Informazione poligonale della carta dell'uso del suolo 1:10.000",
+  "request": "https://geoservices1.civis.bz.it/geoserver/p_bz-LandUse/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=p_bz-LandUse:RealLandUseMap-Polygons&srsName=EPSG:25832&bbox=702000,5160000,716000,5172000,EPSG:25832&outputFormat=application/json&count=20000",
+  "retrieved": "2026-09-29",
+  "referenceImagesUsed": false
+}

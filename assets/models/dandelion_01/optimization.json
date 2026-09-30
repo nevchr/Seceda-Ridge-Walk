@@ -1,0 +1,25 @@
+{
+  "source": "model.gltf",
+  "method": "Three.js SimplifyModifier 72% vertex reduction, preserve UVs, recompute normals; CC0 derivative",
+  "report": [
+    {
+      "name": "Dandelion rosette 0",
+      "sourceTriangles": 3180,
+      "triangles": 543,
+      "vertices": 534
+    },
+    {
+      "name": "Dandelion rosette 1",
+      "sourceTriangles": 2604,
+      "triangles": 411,
+      "vertices": 400
+    },
+    {
+      "name": "Dandelion rosette 2",
+      "sourceTriangles": 2080,
+      "triangles": 355,
+      "vertices": 380
+    }
+  ],
+  "bytes": 49908
+}

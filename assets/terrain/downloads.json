@@ -1,0 +1,41 @@
+{
+  "retrieved": "2026-09-27T19:44:34.833Z",
+  "source": "Autonomous Province of Bolzano - South Tyrol, DTM 2.5m",
+  "license": "CC0",
+  "catalog": "https://data.civis.bz.it/it/dataset/modello-digitale-del-terreno-dtm-25m",
+  "layers": [
+    {
+      "name": "near",
+      "bbox": [
+        708000,
+        5163700,
+        709800,
+        5165000
+      ],
+      "step": 2.5,
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=708000%2C5163700%2C709800%2C5165000&width=720&height=520&format=GeoTIFF&interpolation=bilinear"
+    },
+    {
+      "name": "middle",
+      "bbox": [
+        708000,
+        5163000,
+        714000,
+        5168000
+      ],
+      "step": 5,
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=708000%2C5163000%2C714000%2C5168000&width=1200&height=1000&format=GeoTIFF&interpolation=bilinear"
+    },
+    {
+      "name": "far",
+      "bbox": [
+        702000,
+        5160000,
+        716000,
+        5172000
+      ],
+      "step": 40,
+      "url": "https://geoservices9.civis.bz.it/geoserver/ows?service=WCS&version=1.0.0&request=GetCoverage&coverage=p_bz-Elevation%3ADigitalTerrainModel-2.5m&crs=EPSG%3A25832&response_crs=EPSG%3A25832&bbox=702000%2C5160000%2C716000%2C5172000&width=350&height=300&format=GeoTIFF&interpolation=bilinear"
+    }
+  ]
+}
