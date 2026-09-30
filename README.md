@@ -4,6 +4,10 @@
 
 A small, offline Windows exploration prototype. Walk through a summer meadow to the Seceda ridge and look east toward the Odle. One continuous scene, approximately 328 m / 3 minutes of walking, with free look and a bounded area of off-trail exploration.
 
+![Actual Seceda source render](docs/images/source-preview.png)
+
+*Actual automated render of this source checkout with the published runtime bundle. Landscape data/material attribution: [ASSET-LICENSES.md](ASSET-LICENSES.md).*
+
 ## Run this source checkout
 
 This repository publishes the v0.15.0 application source separately from its licensed runtime assets. The GitHub release contains **assets**, not an installer or a prebuilt application. Original local Git history, private reference photos, raw regional GeoTIFF inputs and historical screenshots stay on the development machine.
@@ -30,6 +34,12 @@ For offline installation, obtain the same release archive and run `node scripts/
 
 `pnpm test` checks every runtime hash, downloader integrity/preservation cases and production terrain/controller invariants. Historical visual and traversal scripts remain for reference; some expect retained local artifacts or machine-specific Playwright paths and are not portable fresh-checkout commands. Fresh publication verification is described below; performance figures in older milestone documents are historical, not new measurements.
 
+## Fresh-checkout verification (30 September 2026)
+
+A fresh public Git clone installed the committed lockfile, downloaded the public release without authentication, verified all 413 runtime files, passed four downloader integrity/preservation tests and the production terrain/controller checks, rendered the scene with working controller movement in headless Edge/WebGL2, and created the Windows portable directory with `pnpm package`. The packaged Electron executable also loaded the packaged scene/assets and exercised movement in a hidden QA window.
+
+This validates the source/assets setup and package layout on the development machine. It does not validate interactive physical controls, critical audio listening, a clean Windows VM, other GPUs or installer behavior. Software-rendered browser timings are not a performance benchmark. The asset release tag versions the ZIP; use the current `main` branch for the corrected checksum-preserving source checkout.
+
 ## Existing local Windows builds
 
 Double-click **Launch Seceda.cmd**, or **release/Seceda-Windows-v0.15/Seceda.exe**. Keep the entire Seceda-Windows-v0.15 folder together. For sharing, extract **release/Seceda-Windows-v0.15.zip** first. No Node installation, terminal, account, or internet connection is required for that portable build. The build is unsigned.
@@ -48,7 +58,7 @@ Follow the pale trail to the timber marker, then look east. Reaching the viewpoi
 
 ## What is real
 
-The broad landscape and peak elevations come from the Autonomous Province of Bolzano / South Tyrol **DTM 2.5 m**, under CC0. World units are metres; horizontal and vertical scale are 1:1. The terrain has not been replaced with a hand-drawn mountain silhouette.
+The broad landscape and peak elevations come from the Autonomous Province of Bolzano / South Tyrol **DTM 2.5 m**, under CC0. World units are metres; horizontal and vertical scale are 1:1. The terrain has not been replaced with a hand-drawn mountain silhouette. Ground colour also uses modified provincial Ortofoto 2023 imagery (CC BY 4.0) and historical land-use data; exact attribution, source requests and derivative changes are retained in the asset manifests and [ASSET-LICENSES.md](ASSET-LICENSES.md).
 
 The original walk collision is preserved at 2.5 m. The visual region now uses newly acquired native 2.5 m tiles, with coarser geometry selected only where its screen error is small. These are view/detail regions of the same terrain, not selectable mountains. See **docs/TERRAIN.md** and the retained GeoTIFFs and exact request metadata in **assets/terrain**.
 
