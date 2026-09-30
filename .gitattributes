@@ -1,0 +1,4 @@
+# Runtime bundle metadata is checksum-pinned byte for byte.
+assets/** -text
+docs/ASSETS.md -text
+ASSET-LICENSES.md -text
